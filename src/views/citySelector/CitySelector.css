@@ -1,0 +1,27 @@
+.help {
+  background-image: url("./DenHaag.jpg");
+  background-size: cover;
+  display: block;
+  position: absolute;
+  top: 40vw;
+  left: 0;
+  width: 100vw;
+  height: 100vw;
+  clip-path: polygon(0 0, 0% 100%, 100% 100%);
+}
+.help:nth-child(2) {
+  background-image: url("./Nieuwegein.jpg");
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+
+.buttonDH {
+  position: absolute;
+  top: 40vh;
+}
+
+.buttonNW {
+  position: absolute;
+  display: block;
+  top: 20vh;
+  right: 5vw;
+}

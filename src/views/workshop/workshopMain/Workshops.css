@@ -1,0 +1,22 @@
+/* .blue {
+  background-color: #154273;
+  padding: 2vh;
+  height: 100%;
+}
+
+.button {
+  margin: 0;
+  background-color: #154273; */
+/* } */
+
+.margin {
+    margin: 5vw;
+    /* z-index: 0; */
+  }
+
+.image {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 10vh;
+  height: 10vh;
+}

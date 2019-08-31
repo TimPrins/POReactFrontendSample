@@ -1,0 +1,17 @@
+.listItems {
+  list-style: none;
+  display: block;
+  padding: 0vw 0 2.5vh 0vw;
+}
+.listItems:nth-child(odd) {
+  background-color: #154273;
+  color: #fff;
+}
+.listItems:nth-child(even) {
+  background-color: #fff;
+  color: #154273;
+}
+
+a {
+  text-decoration: none;
+}
