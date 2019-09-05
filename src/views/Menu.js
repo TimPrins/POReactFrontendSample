@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import BackButton from "../components/BackButton";
 import { Button } from "semantic-ui-react";
 import { Icon } from "semantic-ui-react";
+
+import Header from "../components/Header";
 
 import { Subscribe } from "unstated";
 import AppState from "../states/AppState";
@@ -51,104 +52,105 @@ const styles = {
     // fontSize: "4vw"
   }
 };
-
 class Menu extends Component {
   render() {
     return (
       <React.Fragment>
-        <NavLink to="/introduction">
-          <BackButton />
-        </NavLink>
-        <p style={styles.welcome}>Welkom op de P&O Dagen Rijk</p>
+        <Header lastPage="/introduction" />
         <Subscribe to={[AppState]}>
-          {appState => <h1 style={styles.city}>{appState.state.location}!</h1>}
-        </Subscribe>
-        <div style={styles.container}>
-          <NavLink to="/program">
-            <div style={styles.button}>
-              <div
-                style={{
-                  backgroundColor: "#0D50A1",
-                  width: "100%",
-                  height: "100%",
-                  borderRadius: "5vw"
-                }}
-              >
-                <Icon
-                  name="calendar alternate outline"
-                  size="big"
-                  style={styles.icon}
-                />
-                <p style={styles.buttonText}>Programma</p>
+          {appState => (
+            <React.Fragment>
+              <p style={styles.welcome}>Welkom op de P&O Dagen Rijk</p>
+              <h1 style={styles.city}>{appState.state.location}!</h1>
+              <div style={styles.container}>
+                <NavLink to="/program">
+                  <div style={styles.button}>
+                    <div
+                      style={{
+                        backgroundColor: "#0D50A1",
+                        width: "100%",
+                        height: "100%",
+                        borderRadius: "5vw"
+                      }}
+                    >
+                      <Icon
+                        name="calendar alternate outline"
+                        size="big"
+                        style={styles.icon}
+                      />
+                      <p style={styles.buttonText}>Programma</p>
+                    </div>
+                  </div>
+                </NavLink>
+                <NavLink to="/map">
+                  <div style={styles.button}>
+                    <div
+                      style={{
+                        backgroundColor: "#357720",
+                        width: "100%",
+                        height: "100%",
+                        borderRadius: "5vw"
+                      }}
+                    >
+                      <Icon
+                        name="map marker alternate"
+                        size="big"
+                        style={styles.icon}
+                      />
+                      <p style={styles.buttonText}>Plattegrond</p>
+                    </div>
+                  </div>
+                </NavLink>
+                <NavLink to="/workshops">
+                  <div style={styles.button}>
+                    {" "}
+                    <div
+                      style={{
+                        backgroundColor: "#EB0366",
+                        width: "100%",
+                        height: "100%",
+                        borderRadius: "5vw"
+                      }}
+                    >
+                      <Icon name="eye" size="big" style={styles.icon} />
+                      <p style={styles.buttonText}>Workshops</p>
+                    </div>
+                  </div>
+                </NavLink>
+                <NavLink to="/contact">
+                  <div style={styles.button}>
+                    {" "}
+                    <div
+                      style={{
+                        backgroundColor: "#FFA304",
+                        width: "100%",
+                        height: "100%",
+                        borderRadius: "5vw"
+                      }}
+                    >
+                      <Icon name="mail" size="big" style={styles.icon} />
+                      <p style={styles.buttonText}>Contact</p>
+                    </div>
+                  </div>
+                </NavLink>
               </div>
-            </div>
-          </NavLink>
-          <NavLink to="/map">
-            <div style={styles.button}>
-              <div
-                style={{
-                  backgroundColor: "#357720",
-                  width: "100%",
-                  height: "100%",
-                  borderRadius: "5vw"
-                }}
-              >
-                <Icon
-                  name="map marker alternate"
-                  size="big"
-                  style={styles.icon}
-                />
-                <p style={styles.buttonText}>Plattegrond</p>
-              </div>
-            </div>
-          </NavLink>
-          <NavLink to="/workshops">
-            <div style={styles.button}>
-              {" "}
-              <div
-                style={{
-                  backgroundColor: "#EB0366",
-                  width: "100%",
-                  height: "100%",
-                  borderRadius: "5vw"
-                }}
-              >
-                <Icon name="eye" size="big" style={styles.icon} />
-                <p style={styles.buttonText}>Workshops</p>
-              </div>
-            </div>
-          </NavLink>
-          <NavLink to="/contact">
-            <div style={styles.button}>
-              {" "}
-              <div
-                style={{
-                  backgroundColor: "#FFA304",
-                  width: "100%",
-                  height: "100%",
-                  borderRadius: "5vw"
-                }}
-              >
-                <Icon name="mail" size="big" style={styles.icon} />
-                <p style={styles.buttonText}>Contact</p>
-              </div>
-            </div>
-          </NavLink>
-        </div>
 
-        <NavLink to="/generic-evaluation">
-          <Button
-            color="orange"
-            content="Evaluatie"
-            size="big"
-            // style={{
-            //   backgroundColor: "#FFA304",
-            //   float: "right",
-            //   margin: "0vw 4.5vw 0vw 0vw"
-            // }}
-            style={styles.evalButton}
-          />
-        </NavLink>
+              <NavLink to="/generic-evaluation">
+                <Button
+                  color="orange"
+                  content="Evaluatie"
+                  size="big"
+                  // style={{
+                  //   backgroundColor: "#FFA304",
+                  //   float: "right",
+                  //   margin: "0vw 4.5vw 0vw 0vw"
+                  // }}
+                  style={styles.evalButton}
+                />
+              </NavLink>
+            </React.Fragment>
+          )}
+        </Subscribe>
       </React.Fragment>
     );
   }

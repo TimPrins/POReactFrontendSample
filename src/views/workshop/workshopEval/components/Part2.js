@@ -3,14 +3,18 @@ import React, { Component } from "react";
 import { Button, Form } from "semantic-ui-react";
 
 import { Subscribe } from "unstated";
-import WorkshopsContainer from "../../../../states/WorkshopState";
+import AppState from "../../../../states/AppState";
 
-// const styles = {
-//   textDiv: {
-//     margin: "8vw",
-//     fontSize: "4vw"
-//   }
-// };
+const styles = {
+  workshopTitle: {
+    left: "5vw",
+    fontSize: "3.5vh"
+  },
+  textDiv: {
+    margin: "10vw",
+    fontSize: "4vw"
+  }
+};
 
 class Part2 extends Component {
   state = {};
@@ -18,20 +22,22 @@ class Part2 extends Component {
 
   render() {
     return (
-      <Subscribe to={[WorkshopsContainer]}>
-        {workshopState => (
-          <React.Fragment>
-            <Subscribe to={[WorkshopsContainer]}>
-              {workshopState => (
-                <Form>
-                  <p>Vraag 4</p>
-                  <Form.TextArea
-                    label="Maximaal 100 woorden"
-                    placeholder="Tell us more about you..."
-                    onChange={this.handleChange}
-                  />
+      <React.Fragment>
+        <Subscribe to={[AppState]}>
+          {appState => (
+            <Form>
+              <p style={styles.workshopTitle}>
+                {appState.state.workshopInfo.title}
+              </p>
+              <p>Vraag 4</p>
+              <Form.TextArea
+                style={{ width: "80vw" }}
+                label="Maximaal 100 woorden"
+                placeholder="Plaats hier je feedback"
+                onChange={this.handleChange}
+              />
 
-                  <Button
+              {/* <Button
                     color="orange"
                     basic
                     style={{
@@ -41,27 +47,31 @@ class Part2 extends Component {
                     onClick={this.props.prevStep}
                   >
                     Terug
-                  </Button>
-                  <Button
-                    basic
-                    color="orange"
-                    style={{
-                      float: "right",
-                      backgroundColor: "#FFA304"
-                    }}
-                    onClick={() => {
-                      workshopState.setWorkshopEval2(this.state.value);
-                      this.props.nextStep();
-                    }}
-                  >
-                    Verzenden
-                  </Button>
-                </Form>
-              )}
-            </Subscribe>
-          </React.Fragment>
-        )}
-      </Subscribe>
+                  </Button> */}
+              <Button
+                disabled={!this.state.value}
+                color="orange"
+                style={{
+                  float: "right",
+                  backgroundColor: "#FFA304"
+                }}
+                onClick={() => {
+                  this.props.sendData({
+                    location: appState.state.location,
+                    question1: appState.state.question1,
+                    question2: appState.state.question2,
+                    question3: appState.state.question3,
+                    question4: this.state.value
+                  });
+                  this.props.nextStep();
+                }}
+              >
+                Verzenden
+              </Button>
+            </Form>
+          )}
+        </Subscribe>
+      </React.Fragment>
     );
   }
 }

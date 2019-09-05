@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import BackButton from "../../components/BackButton";
 import { Button } from "semantic-ui-react";
+import Header from "../../components/Header";
 
 import { Subscribe } from "unstated";
-import ProgramContainer from "../../states/ProgramState";
 
 import ProgramImage from "../../assets/Program/ProgramImage.png";
+import AppState from "../../states/AppState";
 
 const styles = {
   programDetailImage: {
@@ -40,11 +40,10 @@ class ProgramDetails extends Component {
   render() {
     return (
       <React.Fragment>
-        <NavLink to="/program">
-          <BackButton />
-        </NavLink>
-        <Subscribe to={[ProgramContainer]}>
-          {programState => (
+        <Header lastPage="/program" />
+
+        <Subscribe to={[AppState]}>
+          {appState => (
             <div>
               <div style={styles.container}>
                 <img
@@ -53,21 +52,21 @@ class ProgramDetails extends Component {
                   style={styles.programDetailImage}
                 />
                 <p style={styles.imageTitle}>
-                  {programState.state.eventInfo.time} -{" "}
-                  {programState.state.eventInfo.name}
+                  {appState.state.eventInfo.time} -{" "}
+                  {appState.state.eventInfo.name}
                 </p>
               </div>
               <div style={styles.textDiv}>
-                <p>{programState.state.eventInfo.text}</p>
+                <p>{appState.state.eventInfo.text}</p>
                 <p style={styles.redText}>
-                  Locatie : {programState.state.eventInfo.location}
+                  Locatie : {appState.state.eventInfo.location}
                 </p>
                 <p style={styles.redText}>
-                  {programState.state.speakerInfo.speaker}{" "}
-                  {programState.state.speakerInfo.name}
+                  {appState.state.speakerInfo.speaker}{" "}
+                  {appState.state.speakerInfo.name}
                 </p>
               </div>
-              {programState.state.speakerInfo.speaker && (
+              {appState.state.speakerInfo.speaker && (
                 <NavLink to="/program-speaker">
                   <Button
                     color="orange"

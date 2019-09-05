@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
-import BackButton from "../components/BackButton";
 import ContactImage from "../assets/Contact.png";
+
+import Header from "../components/Header";
 
 const styles = {
   contactImage: {
@@ -30,10 +30,7 @@ class ProgramDetails extends Component {
   render() {
     return (
       <React.Fragment>
-        <NavLink to="/menu">
-          <BackButton />
-        </NavLink>
-
+        <Header lastPage="/menu" />
         <div style={styles.container}>
           <img src={ContactImage} alt="" style={styles.contactImage} />
           <p style={styles.imageTitle}>Contact</p>

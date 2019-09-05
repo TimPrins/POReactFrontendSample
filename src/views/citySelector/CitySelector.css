@@ -3,7 +3,7 @@
   background-size: cover;
   display: block;
   position: absolute;
-  top: 40vw;
+  top: 45vw;
   left: 0;
   width: 100vw;
   height: 100vw;
@@ -16,12 +16,13 @@
 
 .buttonDH {
   position: absolute;
-  top: 40vh;
+  top: 33vh;
+  left: 5vw;
 }
 
 .buttonNW {
   position: absolute;
   display: block;
-  top: 20vh;
+  top: 17vh;
   right: 5vw;
 }

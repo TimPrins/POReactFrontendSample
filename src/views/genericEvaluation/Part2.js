@@ -1,81 +1,77 @@
 import React, { Component } from "react";
 // import { NavLink } from "react-router-dom";
-import { Button, Form, Radio } from "semantic-ui-react";
+import { Button, Form, Dropdown } from "semantic-ui-react";
 
 import { Subscribe } from "unstated";
-import GenericEvalState from "../../states/GenericEvalState";
+import AppState from "../../states/AppState";
 
-const numbers = ["1", "2", "3", "4", "5"];
+const options = [
+  {
+    value: "Interessant programma",
+    key: "Interessant programma",
+    text: "Interessant programma"
+  },
+  {
+    value: "Interessante sprekers ",
+    key: "Interessante sprekers ",
+    text: "Interessante sprekers "
+  },
+  {
+    value: "Interessante sessies ",
+    key: "Interessante sessies ",
+    text: "Interessante sessies "
+  },
+  {
+    value: "Inspiratie opdoen",
+    key: "Inspiratie opdoen",
+    text: "Inspiratie opdoen"
+  },
+  {
+    value: "Netwerk uitbreiden",
+    key: "Netwerk uitbreiden",
+    text: "Netwerk uitbreiden"
+  },
+  {
+    value: "Anders",
+    key: "Anders",
+    text: "Anders"
+  }
+];
 
 class Part2 extends Component {
   state = {};
-  handleChange = (e, { value }) => this.setState({ value: value });
-  handleChange2 = (e, { value }) => this.setState({ value2: value });
-  handleChange3 = (e, { value }) => this.setState({ value3: value });
-
+  setQuestion = (e, { value }) => this.setState({ question4: value });
   render() {
     return (
       <React.Fragment>
-        <Subscribe to={[GenericEvalState]}>
-          {workshopState => (
+        <Subscribe to={[AppState]}>
+          {appState => (
             <Form>
-              <p className="question">Vraag 4</p>
-              <Form.Group inline className="center">
-                {numbers.map(number => (
-                  <Radio
-                    name="Question1"
-                    value={number}
-                    checked={this.state.value === number}
-                    onChange={this.handleChange}
-                  />
-                ))}
+              <p className="question">
+                4. Wat is voor jou de belangrijkste reden om aanwezig te zijn op
+                de P&O-dagen Rijk?
+              </p>
+              <Form.Group inline>
+                <Dropdown
+                  inline
+                  multiple
+                  options={options}
+                  placeholder="Klik hier om je keuze te maken"
+                  header="Meer keuzes mogelijk."
+                  onChange={this.setQuestion}
+                />
               </Form.Group>
-              <label className="left">Totaal oneens</label>
-              <label className="right">Totaal eens</label>
-              <br />
-              <p className="question">Vraag 5</p>
-              <Form.Group inline className="center">
-                {numbers.map(number => (
-                  <Radio
-                    className="radio"
-                    name="Question2"
-                    value={number}
-                    checked={this.state.value2 === number}
-                    onChange={this.handleChange2}
-                  />
-                ))}
-              </Form.Group>
-              <label className="left">Totaal oneens</label>
-              <label className="right">Totaal eens</label>
-              <br />
-              <p className="question">Vraag 6</p>
-              <Form.Group inline className="center">
-                {numbers.map(number => (
-                  <Radio
-                    name="Question3"
-                    value={number}
-                    checked={this.state.value3 === number}
-                    onChange={this.handleChange3}
-                  />
-                ))}
-              </Form.Group>
-              <label className="left">Totaal oneens</label>
-              <label className="right">Totaal eens</label>
-              <br />
+
               <Button
-                basic
                 color="orange"
+                disabled={!this.state.question4}
                 style={{
                   backgroundColor: "#FFA304",
                   width: "30vw",
                   margin: "10vw 0vw 0vw 50vw"
                 }}
                 onClick={() => {
-                  workshopState.setGenericEval2(
-                    this.state.value,
-                    this.state.value2,
-                    this.state.value3
-                  );
+                  appState.setGenericEval2(this.state.question4);
                   this.props.nextStep();
                 }}
               >

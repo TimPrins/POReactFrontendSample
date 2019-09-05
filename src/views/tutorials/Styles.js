@@ -1,8 +1,11 @@
 const styles = {
   text: {
     fontSize: "3.5vw",
-    margin: "10vw 15vw",
+    margin: "50vw 15vw",
     lineHeight: "8vw"
+  },
+  jasjeZijnDiv: {
+    height: "75vh"
   },
   tutorial: {
     position: "absolute",

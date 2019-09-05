@@ -1,11 +1,8 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
-import BackButton from "../../components/BackButton";
+import Header from "../../components/Header";
 
 import { Subscribe } from "unstated";
-import ProgramContainer from "../../states/ProgramState";
-
-import SpeakerImage from "../../assets/Program/Speaker.png";
+import AppState from "../../states/AppState";
 
 const styles = {
   textDiv: {
@@ -27,18 +24,17 @@ class ProgramDetail extends Component {
   render() {
     return (
       <React.Fragment>
-        <NavLink to="/program">
-          <BackButton />
-        </NavLink>
-        <Subscribe to={[ProgramContainer]}>
-          {programState => (
+        <Header lastPage="/program-details" />
+        <Subscribe to={[AppState]}>
+          {appState => (
             <div>
-              <img src={SpeakerImage} alt="" style={styles.speakerImage} />
+              <img src={appState.state.speakerInfo.image} alt="" style={styles.speakerImage} />
+               {/* <img src={SpeakerImage} alt="" style={styles.speakerImage} /> */}
               <div style={styles.textDiv}>
                 <h1 style={styles.title}>
-                  {programState.state.speakerInfo.name}
+                  {appState.state.speakerInfo.name}
                 </h1>
-                <p>{programState.state.speakerInfo.text}</p>
+                <p>{appState.state.speakerInfo.text}</p>
               </div>
             </div>
           )}

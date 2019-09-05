@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import BackButton from "../components/BackButton";
 import { Button } from "semantic-ui-react";
 import { Icon } from "semantic-ui-react";
+import Header from "../components/Header";
 
 import { Subscribe } from "unstated";
 import AppState from "../states/AppState";
@@ -36,10 +36,7 @@ class Introduction extends Component {
   render() {
     return (
       <React.Fragment>
-        <NavLink to="/city-selector">
-          <BackButton />
-        </NavLink>
-
+        <Header lastPage="/city-selector" />
         <p style={styles.welcome}>Welkom op de P&O Dagen Rijk</p>
         <Subscribe to={[AppState]}>
           {appState => <h1 style={styles.city}>{appState.state.location}!</h1>}

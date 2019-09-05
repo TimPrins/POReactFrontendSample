@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import BackButton from "../../components/BackButton";
+import Header from "../../components/Header";
 import { Button } from "semantic-ui-react";
 
 import WorkshopImage from "../../assets/Workshops/Detail.png";
 
 import { Subscribe } from "unstated";
-import WorkshopsContainer from "../../states/WorkshopState";
+import AppState from "../../states/AppState";
 
 const styles = {
   programDetailImage: {
@@ -40,11 +40,9 @@ class WorkshopDetail extends Component {
   render() {
     return (
       <div>
-        <NavLink to="/workshops">
-          <BackButton />
-        </NavLink>
-        <Subscribe to={[WorkshopsContainer]}>
-          {workshopState => (
+        <Header lastPage="/workshops" />
+        <Subscribe to={[AppState]}>
+          {appState => (
             <div>
               <div style={styles.container}>
                 <img
@@ -53,16 +51,16 @@ class WorkshopDetail extends Component {
                   style={styles.programDetailImage}
                 />
                 <p style={styles.imageTitle}>
-                  {workshopState.state.workshopInfo.title}
+                  {appState.state.workshopInfo.title}
                 </p>
               </div>
               <div style={styles.textDiv}>
-                <p>{workshopState.state.workshopInfo.text}</p>
+                <p>{appState.state.workshopInfo.text}</p>
                 <p style={styles.redText}>
-                  Locatie : {workshopState.state.workshopInfo.location}
+                  Locatie : {appState.state.workshopInfo.location}
                 </p>
                 <p style={styles.redText}>
-                  Spreker : {workshopState.state.workshopInfo.leader}
+                  Spreker : {appState.state.workshopInfo.leader}
                 </p>
               </div>
               <NavLink to="/workshop-evaluation">

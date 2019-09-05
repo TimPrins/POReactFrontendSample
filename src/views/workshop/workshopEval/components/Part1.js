@@ -3,9 +3,20 @@ import React, { Component } from "react";
 import { Button, Form, Radio } from "semantic-ui-react";
 
 import { Subscribe } from "unstated";
-import WorkshopsContainer from "../../../../states/WorkshopState";
+import AppState from "../../../../states/AppState";
 
 const numbers = ["1", "2", "3", "4", "5"];
+
+const styles = {
+  workshopTitle: {
+    left: "5vw",
+    fontSize: "3.5vh"
+  },
+  textDiv: {
+    margin: "10vw",
+    fontSize: "4vw"
+  }
+};
 
 class Part1 extends Component {
   state = {};
@@ -16,9 +27,12 @@ class Part1 extends Component {
   render() {
     return (
       <React.Fragment>
-        <Subscribe to={[WorkshopsContainer]}>
-          {workshopState => (
+        <Subscribe to={[AppState]}>
+          {appState => (
             <Form>
+              <p style={styles.workshopTitle}>
+                {appState.state.workshopInfo.title}
+              </p>
               <p className="question">Vraag 1</p>
               <Form.Group inline className="center">
                 {numbers.map(number => (
@@ -63,15 +77,17 @@ class Part1 extends Component {
               <label className="right">Totaal eens</label>
               <br />
               <Button
-                basic
                 color="orange"
+                disabled={
+                  !this.state.value + !this.state.value2 + !this.state.value3
+                }
                 style={{
                   backgroundColor: "#FFA304",
                   width: "30vw",
                   margin: "10vw 0vw 0vw 50vw"
                 }}
                 onClick={() => {
-                  workshopState.setWorkshopEval1(
+                  appState.setWorkshop(
                     this.state.value,
                     this.state.value2,
                     this.state.value3

@@ -1,18 +1,24 @@
-/* .blue {
+.r {
   background-color: #154273;
+  font-size: 8vw;
+  width: 45vw;
+  top: 20vh;
   padding: 2vh;
-  height: 100%;
+  color: white;
+  position: fixed;
+  z-index: 10000;
 }
 
-.button {
-  margin: 0;
-  background-color: #154273; */
-/* } */
+/* .r1 {
+} */
+
+.r2 {
+  right: 0;
+}
 
 .margin {
-    margin: 5vw;
-    /* z-index: 0; */
-  }
+  margin: 5vw;
+}
 
 .image {
   border-radius: 50%;

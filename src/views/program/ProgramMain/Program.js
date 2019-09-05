@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 
-import BackButton from "../../../components/BackButton";
-import { Icon } from "semantic-ui-react";
+import Header from "../../../components/Header";
+import { Icon, Button } from "semantic-ui-react";
 import "./Program.css";
 
 import { Subscribe } from "unstated";
-import ProgramContainer from "../../../states/ProgramState";
+import AppState from "../../../states/AppState";
 
 const styles = {
   title: {
@@ -34,100 +34,81 @@ const styles = {
 };
 
 class Program extends Component {
-  constructor() {
-    super();
-    this.state = {
-      program: [
-        {
-          eventInfo: {
-            time: "09:00",
-            name: "Ontvangst",
-            location: "Zaal 1",
-            text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`
-          },
-          speakerInfo: {
-            image: "fgf",
-            speaker: "Spreker : ",
-            name: "Tamar Druppers",
-            text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`
-          }
-        },
-        {
-          eventInfo: {
-            time: "09:00",
-            name: "Ontvangst",
-            location: "Zaal 1",
-            text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`
-          },
-          speakerInfo: {
-            image: "",
-            name: "",
-            text: ""
-          }
-        },
-        {
-          eventInfo: {
-            time: "10:00",
-            name: "Ontvangst",
-            location: "Zaal 2",
-            text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod lacus et erat mattis, eget dapibus mauris convallis. Phasellus mollis tellus non nisl porttitor varius et et diam. Nulla in est nibh. Nunc ullamcorper ornare urna quis laoreet. Pellentesque non rhoncus quam, sed facilisis odio. Morbi nec turpis tincidunt, porttitor eros id, dictum augue. Aenean sit amet interdum eros, ut rhoncus purus. Curabitur at lorem id urna tristique mattis in quis ante. Ut fringilla aliquet libero et lobortis. Ut ornare libero in congue egestas. Vestibulum elementum egestas ex feugiat suscipit. Morbi sed nunc feugiat, molestie sem ut, consequat mauris. In ornare leo et libero tempus, in feugiat enim volutpat. Phasellus euismod, mauris condimentum pellentesque malesuada, quam est sagittis purus, ac laoreet leo sem non dolor. Quisque tortor orci, pretium quis lectus at, volutpat rutrum sem. Phasellus ultrices libero eget tellus ullamcorper, quis scelerisque lacus convallis.`
-          },
-          speakerInfo: {
-            image: "fgf",
-            speaker: "Spreker : ",
-            name: "Jason Gawke",
-            text: "abdfsdfdsfsdfdsfsdf"
-          }
-        }
-      ]
-    };
-  }
-
   render() {
     return (
       <div>
-        <NavLink to="/menu">
-          <BackButton />
-        </NavLink>
+        <Header lastPage="/menu" style={{position: "fixed"}}/>
 
         <h1 style={{ textAlign: "center" }}>Programma</h1>
-        {this.state.program.map(programDetail => (
-          <Subscribe to={[ProgramContainer]}>
-            {programState => (
-              <div
-                className="listItems"
-                key={programDetail.time}
-                onClick={() =>
-                  programState.setProgram(
-                    programDetail.eventInfo,
-                    programDetail.speakerInfo
-                  )
-                }
-              >
-                {
-                  <div>
-                    <NavLink to="/program-details">
-                      <p style={styles.time}>
-                        {programDetail.eventInfo.time} -{" "}
-                        {programDetail.eventInfo.name}
-                      </p>
-                      <Icon name="angle right" style={styles.arrow} />
-                      <div style={styles.infoDiv}>
-                        <p style={styles.text}>
-                          Locatie : {programDetail.eventInfo.location}
+
+        <Subscribe to={[AppState]}>
+          {appState => (
+            <div>
+              {appState.state.eventsArray.map(programDetail => (
+                <div
+                  className="listItems"
+                  key={programDetail.time}
+                  onClick={() =>
+                    appState.setProgram(
+                      programDetail.eventInfo,
+                      programDetail.speakerInfo
+                    )
+                  }
+                >
+                  {
+                    <div>
+                      <NavLink to={!programDetail.eventInfo.button &&("/program-details")}>
+                        <p style={styles.time}>
+                          {programDetail.eventInfo.time} -{" "}
+                          {programDetail.eventInfo.name}
                         </p>
-                        <p style={styles.text}>
-                          {programDetail.speakerInfo.speaker}{" "}
-                          {programDetail.speakerInfo.name}
-                        </p>
-                      </div>
-                    </NavLink>
-                  </div>
-                }
-              </div>
-            )}
-          </Subscribe>
-        ))}
+                        {programDetail.speakerInfo && (
+                          <Icon name="angle right" style={styles.arrow} />
+                        )}
+                        <div style={styles.infoDiv}>
+                          {programDetail.speakerInfo && (
+                            <div>
+                              <p style={styles.text}>
+                                Locatie : {programDetail.eventInfo.location}
+                              </p>
+                              <p style={styles.text}>
+                                {programDetail.speakerInfo.speaker}{" "}
+                                {programDetail.speakerInfo.name}
+                              </p>
+                            </div>
+                          )}
+                          {programDetail.eventInfo.button && (
+                            <div
+                              style={{
+                                height: "15vw",
+                                width: "100vw"
+                              }}
+                            >
+                              <NavLink to="/workshops">
+                                <Button
+                                  color="orange"
+                                  style={{
+                                    backgroundColor: "#FFA304",
+                                    width: "70vw",
+                                    position: "absolute",
+                                    left: "15vw",
+                                    margin: "2vh 0"
+                                  }}
+                                >
+                                  Naar workshop overzicht
+                                </Button>
+                              </NavLink>
+                            </div>
+                          )}
+                        </div>
+                      </NavLink>
+                    </div>
+                  }
+                </div>
+              ))}
+            </div>
+          )}
+        </Subscribe>
       </div>
     );
   }

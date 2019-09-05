@@ -4,17 +4,14 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
+import "babel-polyfill";
+
 import { Provider } from "unstated";
 
-import ProgramContainer from "./states/ProgramState";
-import WorkshopContainer from "./states/WorkshopState";
 import AppState from "./states/AppState";
-import GenericEvalState from "./states/WorkshopState";
 
 ReactDOM.render(
-  <Provider
-    inject={[ProgramContainer, WorkshopContainer, AppState, GenericEvalState]}
-  >
+  <Provider inject={[AppState]}>
     <App />
   </Provider>,
   document.getElementById("root")

@@ -1,9 +1,7 @@
 import React, { Component } from "react";
-import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Redirect } from "react-router-dom";
+import { spring, AnimatedSwitch } from "react-router-transition";
 
-import Header from "./components/Header";
-
-// import LoadingScreen from "./views/LoadingScreen";
 import Introduction from "./views/Introduction";
 import CitySelector from "./views/citySelector/CitySelector";
 
@@ -26,18 +24,61 @@ import WorkshopEval from "./views/workshop/workshopEval/WorkshopEval";
 
 import GenericEvaluation from "./views/genericEvaluation/GenericEvaluation";
 
+import MapPage from "./views/Map"
+
 import "./App.css";
+
+// we need to map the `scale` prop we define below
+// to the transform style property
+function mapStyles(styles) {
+  return {
+    opacity: styles.opacity,
+    transform: `translateX(${styles.scale}%)`
+    
+  };
+}
+
+// wrap the `spring` helper to use a bouncy config
+function bounce(val) {
+  return spring(val, {
+    stiffness: 330,
+    damping: 22
+  });
+}
+
+// child matches will...
+const bounceTransition = {
+  // start in a transparent, upscaled state
+  atEnter: {
+    opacity: 0,
+    scale: 40
+  },
+  // leave in a transparent, downscaled state
+  atLeave: {
+    opacity: bounce(0),
+    scale: 0
+  },
+  // and rest at an opaque, normally-scaled state
+  atActive: {
+    opacity: bounce(1),
+    scale: 0
+  }
+};
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
         <React.Fragment>
-          <Header />
-          <main className="main-component" style={{ padding: "20vh 0 0 0" }}>
-            <Switch>
-              <Redirect from="/" to="loading-screen" exact />
-              {/* <Route path="/loading-screen" component={LoadingScreen} /> */}
+          <main className="main-component">
+            <AnimatedSwitch
+              atEnter={bounceTransition.atEnter}
+              atLeave={bounceTransition.atLeave}
+              atActive={bounceTransition.atActive}
+              mapStyles={mapStyles}
+              className="route-wrapper"
+            >
+              <Redirect from="/" to="city-selector" exact />
               <Route path="/generic-evaluation" component={GenericEvaluation} />
               <Route path="/city-selector" component={CitySelector} />
               <Route path="/introduction" component={Introduction} />
@@ -49,7 +90,7 @@ class App extends Component {
 
               <Route path="/menu" component={Menu} />
 
-              <Route path="/map" component={null} />
+              <Route path="/map" component={MapPage} />
 
               <Route path="/workshops" component={Workshop} />
               <Route path="/workshop-detail" component={WorkshopDetail} />
@@ -60,7 +101,7 @@ class App extends Component {
               <Route path="/program" component={Program} />
               <Route path="/program-details" component={ProgramDetails} />
               <Route path="/program-speaker" component={ProgramSpeaker} />
-            </Switch>
+            </AnimatedSwitch>
           </main>
         </React.Fragment>
       </BrowserRouter>

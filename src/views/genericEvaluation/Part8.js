@@ -12,7 +12,7 @@ const numbers = [
   { number: "5", value: "n.v.t." }
 ];
 
-class Part3 extends Component {
+class Part8 extends Component {
   state = {};
   setQuestion = (e, { value }) => this.setState({ question: value });
   render() {
@@ -22,9 +22,9 @@ class Part3 extends Component {
           {appState => (
             <Form>
               <p className="question">
-                Hoe beoordeel je het uitnodigingstraject:
+                Hoe beoordeel je Het napraten tijdens de borrel:
               </p>
-              
+
               {numbers.map(number => (
                 <Form.Field>
                   <Segment>
@@ -48,7 +48,7 @@ class Part3 extends Component {
                   margin: "10vw 0vw 0vw 50vw"
                 }}
                 onClick={() => {
-                  appState.setGenericEval3(this.state.question);
+                  appState.setGenericEval8(this.state.question);
                   this.props.nextStep();
                 }}
               >
@@ -62,4 +62,4 @@ class Part3 extends Component {
   }
 }
 
-export default Part3;
+export default Part8;

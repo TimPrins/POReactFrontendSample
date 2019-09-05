@@ -1,15 +1,11 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
-import BackButton from "../../../components/BackButton";
+import HeaderEmpty from "../../../components/HeaderEmpty";
 
 import Part1 from "./components/Part1";
 import Part2 from "./components/Part2";
 import Succes from "./components/Succes";
 
 import "./WorkshopEval.css";
-
-import { Subscribe } from "unstated";
-import WorkshopsContainer from "../../../states/WorkshopState";
 
 const styles = {
   workshopTitle: {
@@ -38,13 +34,35 @@ class WorkshopEval extends Component {
       step: step - 1
     });
   };
+
+  sendData(payload) {
+    console.log(JSON.stringify(payload));
+    fetch("https://p-o-dagen-api.herokuapp.com/workshop-eval", {
+      method: "POST", // or 'PUT'
+      body: JSON.stringify(payload), // data can be `string` or {object}!
+      headers: {
+        "Content-Type": "application/json"
+      },
+      credentials: "same-origin"
+    })
+      .then(res => res.json())
+      .then(response => console.log("Success:", JSON.stringify(response)))
+      .catch(error => console.error("Error:", error));
+  }
+
   renderComponent() {
     // eslint-disable-next-line
     switch (this.state.step) {
       case 1:
         return <Part1 nextStep={this.nextStep} />;
       case 2:
-        return <Part2 nextStep={this.nextStep} prevStep={this.prevStep} />;
+        return (
+          <Part2
+            nextStep={this.nextStep}
+            prevStep={this.prevStep}
+            sendData={this.sendData}
+          />
+        );
       case 3:
         return <Succes prevStep={this.prevStep} />;
     }
@@ -53,19 +71,9 @@ class WorkshopEval extends Component {
   render() {
     return (
       <React.Fragment>
-        <NavLink to="/workshop-detail">
-          <BackButton />
-        </NavLink>
-        <div style={styles.textDiv}>
-          <Subscribe to={[WorkshopsContainer]}>
-            {workshopState => (
-              <p style={styles.workshopTitle}>
-                {workshopState.state.workshopInfo.title}
-              </p>
-            )}
-          </Subscribe>
-          {this.renderComponent()}
-        </div>
+        <HeaderEmpty lastPage="/workshop-detail" />
+        <div style={{ marginTop: "25vh" }}></div>
+        <div style={styles.textDiv}>{this.renderComponent()}</div>
       </React.Fragment>
     );
   }
