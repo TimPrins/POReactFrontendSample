@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import HeaderEmpty from "../../../components/HeaderEmpty";
+import Header from "../../../components/Header";
 
 import Part1 from "./components/Part1";
 import Part2 from "./components/Part2";
@@ -71,8 +71,8 @@ class WorkshopEval extends Component {
   render() {
     return (
       <React.Fragment>
-        <HeaderEmpty lastPage="/workshop-detail" />
-        <div style={{ marginTop: "25vh" }}></div>
+        <Header lastPage="/workshop-detail" />
+        {/* <div style={{ marginTop: "25vh" }}></div> */}
         <div style={styles.textDiv}>{this.renderComponent()}</div>
       </React.Fragment>
     );

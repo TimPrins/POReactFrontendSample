@@ -120,17 +120,17 @@ class Part1 extends Component {
               </p>
               <Form.Group inline className="center">
                 <Radio
-                  value={"Ja"}
+                  value="Ja"
                   checked={this.state.question1 === "Ja"}
                   onChange={this.setQuestion1}
-                  label={"Ja"}
+                  label="Ja"
                 />
 
                 <Radio
-                  value={"Nee"}
+                  value="Nee"
                   checked={this.state.question1 === "Nee"}
                   onChange={this.setQuestion1}
-                  label={"Nee"}
+                  label="Nee"
                 />
               </Form.Group>
 
@@ -155,17 +155,17 @@ class Part1 extends Component {
               </p>
               <Form.Group inline className="center">
                 <Radio
-                  value={"Ja"}
+                  value="Ja"
                   checked={this.state.question3 === "Ja"}
                   onChange={this.setQuestion3}
-                  label={"Ja"}
+                  label="Ja"
                 />
 
                 <Radio
-                  value={"Nee"}
+                  value="Nee"
                   checked={this.state.question3 === "Nee"}
                   onChange={this.setQuestion3}
-                  label={"Nee"}
+                  label="Nee"
                 />
               </Form.Group>
               <Button
@@ -182,9 +182,9 @@ class Part1 extends Component {
                 }}
                 onClick={() => {
                   appState.setGenericEval1(
-                    this.state.value,
-                    this.state.value2,
-                    this.state.value3
+                    this.state.question1,
+                    this.state.question2,
+                    this.state.question3
                   );
                   this.props.nextStep();
                 }}

@@ -14,6 +14,9 @@ class AppState extends Container {
     genericEval3: "",
     genericEval4: "",
     genericEval5: "",
+    genericEval6: "",
+    genericEval7: "",
+    genericEval8: "",
     workshopEval: "",
     route: ""
   };

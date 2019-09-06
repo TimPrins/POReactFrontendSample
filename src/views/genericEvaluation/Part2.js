@@ -77,6 +77,18 @@ class Part2 extends Component {
               >
                 Verder
               </Button>
+              {appState.state.location +
+                appState.state.genericEval1.question1 +
+                appState.state.genericEval1.question2 +
+                appState.state.genericEval1.question3 +
+                appState.state.genericEval2.question +
+                appState.state.genericEval3.question +
+                appState.state.genericEval4.question +
+                appState.state.genericEval5.question +
+                appState.state.genericEval6.question +
+                appState.state.genericEval7.question +
+                appState.state.genericEval8.question +
+                this.state.value}
             </Form>
           )}
         </Subscribe>
