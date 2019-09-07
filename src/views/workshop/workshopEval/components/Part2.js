@@ -29,10 +29,11 @@ class Part2 extends Component {
               <p style={styles.workshopTitle}>
                 {appState.state.workshopInfo.title}
               </p>
-              <p>Vraag 4</p>
+              <p className="question">
+                4. Heb je nog algemene feedback voor de workshopleider(s)?{" "}
+              </p>
               <Form.TextArea
                 style={{ width: "80vw" }}
-                label="Maximaal 100 woorden"
                 placeholder="Plaats hier je feedback"
                 onChange={this.handleChange}
               />

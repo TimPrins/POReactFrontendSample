@@ -1,11 +1,9 @@
 import React, { Component } from "react";
 // import { NavLink } from "react-router-dom";
-import { Button, Form, Radio } from "semantic-ui-react";
+import { Button, Form, Radio, Dropdown } from "semantic-ui-react";
 
 import { Subscribe } from "unstated";
 import AppState from "../../../../states/AppState";
-
-const numbers = ["1", "2", "3", "4", "5"];
 
 const styles = {
   workshopTitle: {
@@ -17,10 +15,67 @@ const styles = {
     fontSize: "4vw"
   }
 };
+const options = [
+  {
+    value: "Niet",
+    key: "Niet",
+    text: "Niet"
+  },
+  {
+    value: "Klein beetje",
+    key: "Klein beetje",
+    text: "Klein beetje"
+  },
+  {
+    value: "Klein beetje",
+    key: "Klein beetje",
+    text: "Klein beetje"
+  },
+  {
+    value: "Zeer",
+    key: "Zeer",
+    text: "Zeer"
+  },
+  {
+    value: "Zeer",
+    key: "Zeer",
+    text: "Zeer"
+  }
+];
+
+const options2 = [
+  {
+    value: "Heel slecht",
+    key: "Heel slecht",
+    text: "Heel slecht"
+  },
+  {
+    value: "Heel slecht",
+    key: "Heel slecht",
+    text: "Heel slecht"
+  },
+  {
+    value: "Klein beetje",
+    key: "Klein beetje",
+    text: "Klein beetje"
+  },
+  {
+    value: "Heel goed",
+    key: "Heel goed",
+    text: "Heel goed"
+  },
+  {
+    value: "Heel goed",
+    key: "Heel goed",
+    text: "Heel goed"
+  }
+];
 
 class Part1 extends Component {
   state = {};
   setQuestion1 = (e, { value }) => this.setState({ question1: value });
+  setQuestion2 = (e, { value }) => this.setState({ question2: value });
+  setQuestion3 = (e, { value }) => this.setState({ question3: value });
 
   render() {
     return (
@@ -54,37 +109,32 @@ class Part1 extends Component {
                 2. In welke mate voldeed de workshop aan je verwachting?
               </p>
               <Form.Group inline className="center">
-                {numbers.map(number => (
-                  <Radio
-                    className="radio"
-                    name="Question2"
-                    value={number}
-                    checked={this.state.value2 === number}
-                    onChange={this.handleChange2}
-                  />
-                ))}
+                <Dropdown
+                  inline
+                  options={options}
+                  placeholder="Klik hier om je keuze te maken"
+                  onChange={this.setQuestion2}
+                />
               </Form.Group>
-              <label className="left">Totaal oneens</label>
-              <label className="right">Totaal eens</label>
               <br />
-              <p className="question">Vraag 3</p>
+              <p className="question">
+                3. Wat vond je van de kwaliteit van de workshop?
+              </p>
               <Form.Group inline className="center">
-                {numbers.map(number => (
-                  <Radio
-                    name="Question3"
-                    value={number}
-                    checked={this.state.value3 === number}
-                    onChange={this.handleChange3}
-                  />
-                ))}
+                <Dropdown
+                  inline
+                  options={options2}
+                  placeholder="Klik hier om je keuze te maken"
+                  onChange={this.setQuestion3}
+                />
               </Form.Group>
-              <label className="left">Totaal oneens</label>
-              <label className="right">Totaal eens</label>
               <br />
               <Button
                 color="orange"
                 disabled={
-                  !this.state.value + !this.state.value2 + !this.state.value3
+                  !this.state.question1 +
+                  !this.state.question2 +
+                  !this.state.question3
                 }
                 style={{
                   backgroundColor: "#FFA304",
@@ -93,9 +143,9 @@ class Part1 extends Component {
                 }}
                 onClick={() => {
                   appState.setWorkshop(
-                    this.state.value,
-                    this.state.value2,
-                    this.state.value3
+                    this.state.question1,
+                    this.state.question2,
+                    this.state.question3
                   );
                   this.props.nextStep();
                 }}

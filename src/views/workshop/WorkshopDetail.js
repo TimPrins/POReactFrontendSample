@@ -69,7 +69,7 @@ class WorkshopDetail extends Component {
                   style={{
                     backgroundColor: "#FFA304",
                     width: "60vw",
-                    margin: "0vw 0vw 0vw 20vw"
+                    margin: "0vw 0vw 10vw 20vw"
                   }}
                 >
                   Geef feedback

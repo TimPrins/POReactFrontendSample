@@ -61,7 +61,9 @@ class Workshops extends Component {
                           <div className="ui two buttons">
                             <Button
                               color="orange"
-                              style={{ backgroundColor: "#FFA304" }}
+                              style={{
+                                backgroundColor: "#FFA304"
+                              }}
                               onClick={() =>
                                 appState.setWorkshop(workshopDetail)
                               }
