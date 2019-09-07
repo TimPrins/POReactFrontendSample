@@ -44,7 +44,9 @@ class ProgramDetails extends Component {
 
         <Subscribe to={[AppState]}>
           {appState => (
-            <div>
+            <div style={{
+              padding: "0 0 2vh 0"
+            }}>
               <div style={styles.container}>
                 <img
                   src={ProgramImage}

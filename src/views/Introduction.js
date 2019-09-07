@@ -36,6 +36,9 @@ class Introduction extends Component {
   render() {
     return (
       <React.Fragment>
+      <div style={{
+                        padding: "0 0 5vh 0"
+                      }}> 
         <Header lastPage="/city-selector" />
         <p style={styles.welcome}>Welkom op de P&O Dagen Rijk</p>
         <Subscribe to={[AppState]}>
@@ -97,6 +100,7 @@ class Introduction extends Component {
             }}
           />
         </NavLink>
+    </div>
       </React.Fragment>
     );
   }

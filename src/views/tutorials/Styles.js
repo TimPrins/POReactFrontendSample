@@ -1,25 +1,26 @@
 const styles = {
   text: {
-    fontSize: "3.5vw",
-    margin: "50vw 15vw",
-    lineHeight: "8vw"
+    margin: "25vh 15vw 0vh 15vw",
   },
   jasjeZijnDiv: {
-    height: "75vh"
+    height: "60vh"
   },
   tutorial: {
     position: "absolute",
-    bottom: "0",
+    bottom: "15vh",
     float: "right",
     width: "65vw",
-    margin: "0 0 25vh 17.5vw"
+    marginLeft: "50%",
+    transform:"translateX(-50%)"
+
+    // margin: "0 0 25vh 17.5vw"
   },
   button: {
     position: "absolute",
-    bottom: "0",
+    bottom: "5vh",
     backgroundColor: "#FFA304",
-    float: "right",
-    margin: "0vw 0vw 10vh 40vw",
+    float: "left",
+    margin: "0vw 0vw 0vh 40vw",
     width: "50vw"
   }
 };

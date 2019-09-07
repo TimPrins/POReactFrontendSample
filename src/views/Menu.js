@@ -50,6 +50,9 @@ const styles = {
     width: "60vw",
     margin: "5vw 20vw"
     // fontSize: "4vw"
+  },
+  marginBottom:{
+    padding: "0 0 5vh 0"
   }
 };
 class Menu extends Component {

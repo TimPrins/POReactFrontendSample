@@ -14,7 +14,7 @@ class Part5 extends Component {
         <Subscribe to={[AppState]}>
           {appState => (
             <Form>
-              <p>Vraag 7</p>
+              <p className="question">Heb je nog overige feedback die graag met ons deelt</p>
               <Form.TextArea
                 // label="Maximaal 100 woorden"
                 placeholder="Heb je verder nog opmerkingen?"
