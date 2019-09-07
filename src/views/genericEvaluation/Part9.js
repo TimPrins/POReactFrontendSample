@@ -43,20 +43,36 @@ class Part5 extends Component {
                   backgroundColor: "#FFA304"
                 }}
                 onClick={() => {
-                  this.props.sendData({
-                    location: appState.state.location,
-                    question1: appState.state.genericEval1.question1,
-                    question2: appState.state.genericEval1.question2,
-                    question3: appState.state.genericEval1.question3,
-                    question4: appState.state.genericEval2.question,
-                    question5: appState.state.genericEval3.question,
-                    question6: appState.state.genericEval4.question,
-                    question7: appState.state.genericEval5.question,
-                    question8: appState.state.genericEval6.question,
-                    question9: appState.state.genericEval7.question,
-                    question10: appState.state.genericEval8.question,
-                    question11: this.state.value
-                  });
+                  this.props.sendData(
+                    //   {
+                    //   location: appState.state.location,
+                    //   question1: appState.state.genericEval1.question1,
+                    //   question2: appState.state.genericEval1.question2,
+                    //   question3: appState.state.genericEval1.question3,
+                    //   question4: appState.state.genericEval2.question,
+                    //   question5: appState.state.genericEval3.question,
+                    //   question6: appState.state.genericEval4.question,
+                    //   question7: appState.state.genericEval5.question,
+                    //   question8: appState.state.genericEval6.question,
+                    //   question9: appState.state.genericEval7.question,
+                    //   question10: appState.state.genericEval8.question,
+                    //   question11: this.state.value
+                    // }
+                    {
+                      location: appState.state.location,
+                      question1: appState.state.genericEval1.question1,
+                      question2: "1",
+                      question3: "1",
+                      question4: "1",
+                      question5: "1",
+                      question6: "1",
+                      question7: "2",
+                      question8: "1",
+                      question9: "1",
+                      question10: "1",
+                      question11: "1"
+                    }
+                  );
                   this.props.nextStep();
                 }}
               >

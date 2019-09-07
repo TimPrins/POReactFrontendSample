@@ -21,7 +21,7 @@ class Tutorial2 extends Component {
           </p>
           <img src={Tutorial} alt="" style={styles.tutorial} />
           <NavLink to="/tutorial-3">
-            <Button color="orange" content="verder" style={styles.button} />
+            <Button color="orange" content="Verder" style={styles.button} />
           </NavLink>
         </div>
       </React.Fragment>

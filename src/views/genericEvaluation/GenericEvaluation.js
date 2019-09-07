@@ -40,8 +40,8 @@ class GenericEvaluation extends Component {
       body: JSON.stringify(payload), // data can be `string` or {object}!
       headers: {
         "Content-Type": "application/json"
-      },
-      credentials: "same-origin"
+      }
+      // credentials: "same-origin"
     })
       .then(res => res.json())
       .then(response => console.log("Success:", JSON.stringify(response)))

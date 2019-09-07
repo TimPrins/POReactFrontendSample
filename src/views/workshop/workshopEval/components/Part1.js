@@ -20,9 +20,7 @@ const styles = {
 
 class Part1 extends Component {
   state = {};
-  handleChange = (e, { value }) => this.setState({ value: value });
-  handleChange2 = (e, { value }) => this.setState({ value2: value });
-  handleChange3 = (e, { value }) => this.setState({ value3: value });
+  setQuestion1 = (e, { value }) => this.setState({ question1: value });
 
   render() {
     return (
@@ -33,21 +31,28 @@ class Part1 extends Component {
               <p style={styles.workshopTitle}>
                 {appState.state.workshopInfo.title}
               </p>
-              <p className="question">Vraag 1</p>
+              <p className="question">
+                1. In welke Ronde heb je de workshop gevolgd?{" "}
+              </p>
               <Form.Group inline className="center">
-                {numbers.map(number => (
-                  <Radio
-                    name="Question1"
-                    value={number}
-                    checked={this.state.value === number}
-                    onChange={this.handleChange}
-                  />
-                ))}
+                <Radio
+                  value="Ronde 1"
+                  checked={this.state.question1 === "Ronde 1"}
+                  onChange={this.setQuestion1}
+                  label="Ronde 1"
+                />
+
+                <Radio
+                  value="Ronde 2"
+                  checked={this.state.question1 === "Ronde 2"}
+                  onChange={this.setQuestion1}
+                  label="Ronde 2"
+                />
               </Form.Group>
-              <label className="left">Totaal oneens</label>
-              <label className="right">Totaal eens</label>
               <br />
-              <p className="question">Vraag 2</p>
+              <p className="question">
+                2. In welke mate voldeed de workshop aan je verwachting?
+              </p>
               <Form.Group inline className="center">
                 {numbers.map(number => (
                   <Radio

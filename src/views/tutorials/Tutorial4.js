@@ -22,7 +22,7 @@ class Tutorial4 extends Component {
           <NavLink to="/menu">
             <Button
               color="orange"
-              content="naar de app"
+              content="Naar de app"
               style={styles.button}
             />
           </NavLink>
