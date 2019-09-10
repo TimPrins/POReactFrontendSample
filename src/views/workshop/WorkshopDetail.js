@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import Header from "../../components/Header";
 import { Button } from "semantic-ui-react";
 
-import WorkshopImage from "../../assets/Workshops/Detail.png";
+// import WorkshopImage from "../../assets/Workshops/Detail.png";
 
 import { Subscribe } from "unstated";
 import AppState from "../../states/AppState";
@@ -46,7 +46,7 @@ class WorkshopDetail extends Component {
             <div>
               <div style={styles.container}>
                 <img
-                  src={WorkshopImage}
+                  src={appState.state.workshopInfo.bigImage}
                   alt=""
                   style={styles.programDetailImage}
                 />
