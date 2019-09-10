@@ -50,9 +50,9 @@ class WorkshopDetail extends Component {
                   alt=""
                   style={styles.programDetailImage}
                 />
-                <p style={styles.imageTitle}>
+                {/* <p style={styles.imageTitle}>
                   {appState.state.workshopInfo.title}
-                </p>
+                </p> */}
               </div>
               <div style={styles.textDiv}>
                 <p>{appState.state.workshopInfo.text}</p>
