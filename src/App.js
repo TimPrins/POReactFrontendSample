@@ -28,7 +28,6 @@ import MapPage from "./views/Map";
 
 import "./App.css";
 
-let mounted = 0;
 // we need to map the `scale` prop we define below
 // to the transform style property
 function mapStyles(styles) {
@@ -66,10 +65,21 @@ const bounceTransition = {
 };
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {mounted: 0,
+    redirect: false};
+
+  }
+
   componentDidMount() {
-    if (mounted == 0) {
-      mounted = 1;
-      return <Redirect to="city selector" exact />;
+    if (this.state.mounted === 0) {
+      console.log(this.state.mounted)
+      console.log(this.state.redirect)
+      this.setState({mounted: 1});
+      this.setState({redirect: true});
+      console.log(this.state.mounted)
+      console.log(this.state.redirect)
     }
   }
 
@@ -85,7 +95,7 @@ class App extends Component {
               mapStyles={mapStyles}
               className="route-wrapper"
             >
-              <Redirect from="/" to="city-selector" exact />
+              <Redirect from="/" to="/city-selector" exact />
               <Route path="/generic-evaluation" component={GenericEvaluation} />
               <Route path="/city-selector" component={CitySelector} />
               <Route path="/introduction" component={Introduction} />
