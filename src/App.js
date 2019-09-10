@@ -28,7 +28,6 @@ import MapPage from "./views/Map";
 
 import "./App.css";
 
-let mounted = 0;
 // we need to map the `scale` prop we define below
 // to the transform style property
 function mapStyles(styles) {
@@ -75,9 +74,18 @@ class App extends Component {
 
   componentDidMount() {
     if (this.state.mounted === 0) {
+<<<<<<< HEAD
       this.setState({mounted: 1});
       this.setState({redirect: true});
       return <Redirect to="city-selector"/>  
+=======
+      console.log(this.state.mounted)
+      console.log(this.state.redirect)
+      this.setState({mounted: 1});
+      this.setState({redirect: true});
+      console.log(this.state.mounted)
+      console.log(this.state.redirect)
+>>>>>>> 116c55b2b50fa8c260e8b7e6bf7de01cc1278ead
     }
   }
 
@@ -93,8 +101,12 @@ class App extends Component {
               mapStyles={mapStyles}
               className="route-wrapper"
             >
+<<<<<<< HEAD
               {this.componentDidMount()}
               <Redirect from="/" to="city-selector" exact />
+=======
+              <Redirect from="/" to="/city-selector" exact />
+>>>>>>> 116c55b2b50fa8c260e8b7e6bf7de01cc1278ead
               <Route path="/generic-evaluation" component={GenericEvaluation} />
               <Route path="/city-selector" component={CitySelector} />
               <Route path="/introduction" component={Introduction} />
