@@ -66,10 +66,18 @@ const bounceTransition = {
 };
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {mounted: 0,
+    redirect: false};
+
+  }
+
   componentDidMount() {
-    if (mounted == 0) {
-      mounted = 1;
-      return <Redirect to="city selector" exact />;
+    if (this.state.mounted === 0) {
+      this.setState({mounted: 1});
+      this.setState({redirect: true});
+      return <Redirect to="city-selector"/>  
     }
   }
 
@@ -85,6 +93,7 @@ class App extends Component {
               mapStyles={mapStyles}
               className="route-wrapper"
             >
+              {this.componentDidMount()}
               <Redirect from="/" to="city-selector" exact />
               <Route path="/generic-evaluation" component={GenericEvaluation} />
               <Route path="/city-selector" component={CitySelector} />

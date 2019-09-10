@@ -360,7 +360,6 @@ const Nieuwegein = {
       eventInfo: {
         time: "14:30",
         name: "Pauze"
-        // button: true
       },
       speakerInfo: {
         image: require("../../assets/Program/Speaker.png"),
