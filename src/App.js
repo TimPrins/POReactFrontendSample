@@ -24,17 +24,17 @@ import WorkshopEval from "./views/workshop/workshopEval/WorkshopEval";
 
 import GenericEvaluation from "./views/genericEvaluation/GenericEvaluation";
 
-import MapPage from "./views/Map"
+import MapPage from "./views/Map";
 
 import "./App.css";
 
+let mounted = 0;
 // we need to map the `scale` prop we define below
 // to the transform style property
 function mapStyles(styles) {
   return {
     opacity: styles.opacity,
     transform: `translateX(${styles.scale}%)`
-    
   };
 }
 
@@ -66,6 +66,13 @@ const bounceTransition = {
 };
 
 class App extends Component {
+  componentDidMount() {
+    if (mounted == 0) {
+      mounted = 1;
+      return <Redirect to="city selector" exact />;
+    }
+  }
+
   render() {
     return (
       <BrowserRouter>
