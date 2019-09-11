@@ -12,10 +12,9 @@ class Tutorial1 extends Component {
         <HeaderEmpty />
         <div style={styles.jasjeZijnDiv}>
           <p style={styles.text}>
-            In de app kan je snel inzicht krijgen in wat de P&O dagen Rijk 2019
-            allemaal heeft te bieden. Klik op de verschillende onderdelen in het
-            hoofdmenu om meer informatie te krijgen over bijvoorbeeld de
-            Plattegrond.
+            In de app is het mogelijk om snel inzicht krijgen in wat de P&O dagen Rijk 2019
+            allemaal heeft te bieden. Dit doe je door op de verschillende onderdelen in het
+            hoofdmenu te klikken. Zoek je bijvoorbeeld je Workshop zaal, klik dan op de plattegrond.
           </p>
           <img src={Tutorial} alt="" style={styles.tutorial} />
           <NavLink to="/tutorial-2">

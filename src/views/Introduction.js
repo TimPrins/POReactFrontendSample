@@ -45,8 +45,8 @@ class Introduction extends Component {
           {appState => <h1 style={styles.city}>{appState.state.location}!</h1>}
         </Subscribe>
         <p style={styles.text}>
-          In de P&O dagen app vind je alle informatie die nodig is om volledig
-          van deze dag te genieten en meer te weten te komen over het centrale
+          In de P&O dagen app vindt je alle benodigde informatie om volledig
+          van het event te kunnen genieten en meer te weten te komen over het centrale
           thema:
         </p>
         <h1 style={styles.boldText}>Organisatie Ontwikkeling.</h1>
