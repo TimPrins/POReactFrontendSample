@@ -88,7 +88,7 @@ class App extends Component {
           </p>
           <p>
             Als je de app wil instaleren, browse dan met je telefoon of ander
-            mobile device naar deze link
+            mobile device naar www.podagenrijkapp.nl
           </p>
         </div>
         <BrowserRouter>
