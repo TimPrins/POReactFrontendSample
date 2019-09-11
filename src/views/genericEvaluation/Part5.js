@@ -22,7 +22,7 @@ class Part5 extends Component {
           {appState => (
             <Form>
               <p className="question">
-                Hoe beoordeel je de keynote spreker Ruud Veltenaar:
+                Hoe beoordeel je de keynote spreker Lidewey van der Sluis?
               </p>
 
               {numbers.map(number => (

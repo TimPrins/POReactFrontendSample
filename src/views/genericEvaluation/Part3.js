@@ -22,7 +22,7 @@ class Part3 extends Component {
           {appState => (
             <Form>
               <p className="question">
-                Hoe beoordeel je het uitnodigingstraject:
+                Hoe beoordeel je het uitnodigingstraject?
               </p>
               
               {numbers.map(number => (

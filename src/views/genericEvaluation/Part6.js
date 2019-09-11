@@ -22,7 +22,7 @@ class Part6 extends Component {
           {appState => (
             <Form>
               <p className="question">
-                Hoe beoordeel je de keuze van onderwerpen voor de workshops:
+                Hoe beoordeel je de onderwerpen voor de workshops?
               </p>
 
               {numbers.map(number => (

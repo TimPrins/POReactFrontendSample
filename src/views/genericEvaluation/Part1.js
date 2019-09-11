@@ -115,7 +115,7 @@ class Part1 extends Component {
           {appState => (
             <Form>
               <p className="question">
-                1. Ben je naar de P&O dagen in <br />
+                1. Heb je deelgenomen aan de P&O dagen in <br />
                 {appState.state.location} geweest?
               </p>
               <Form.Group inline className="center">

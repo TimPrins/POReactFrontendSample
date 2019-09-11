@@ -22,7 +22,7 @@ class Part4 extends Component {
           {appState => (
             <Form>
               <p className="question">
-                Hoe beoordeel je de dagvoorzitter Marinda Hall:
+                Hoe beoordeel je de dagvoorzitter Sicco Louw?
               </p>
               <p style={{ margin: "0 0 1vh 0" }}>
                 
