@@ -22,7 +22,6 @@ class AppState extends Container {
   };
 
   setCurrentRoute(route) {
-    console.log("assdfsdf");
     this.setState({
       route: route
     });

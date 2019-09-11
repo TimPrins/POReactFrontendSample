@@ -37,11 +37,13 @@ class ProgramDetails extends Component {
         </div>
         <div style={styles.textDiv}>
           <p>
-            Voor vragen en / of opmerkingen kan je Tamar bellen op onderstaand
-            nummer.
+            Voor vragen en / of opmerkingen over de P&O dagen Rijk 2019 kan je Tamar of Eline bellen op onderstaande
+            nummers.
             <br />
             <br />
             Tamar Druppers: 06-36590148
+            <br />
+            Eline van der Veer: 06-15957883
           </p>
         </div>
       </React.Fragment>
