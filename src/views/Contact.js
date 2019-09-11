@@ -33,7 +33,7 @@ class ProgramDetails extends Component {
         <Header lastPage="/menu" />
         <div style={styles.container}>
           <img src={ContactImage} alt="" style={styles.contactImage} />
-          <p style={styles.imageTitle}>Contact</p>
+          {/* <p style={styles.imageTitle}>Contact</p> */}
         </div>
         <div style={styles.textDiv}>
           <p>

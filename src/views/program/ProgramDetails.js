@@ -51,7 +51,7 @@ class ProgramDetails extends Component {
             >
               <div style={styles.container}>
                 <img
-                  src={ProgramImage}
+                  src={appState.state.eventInfo.banner}
                   alt=""
                   style={styles.programDetailImage}
                 />
