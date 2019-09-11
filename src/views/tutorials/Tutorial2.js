@@ -12,12 +12,11 @@ class Tutorial2 extends Component {
         <HeaderEmpty />
         <div style={styles.jasjeZijnDiv}>
           <p style={styles.text}>
-            Ook is gedetailleerde informatie te vinden in deze app. Dit is
-            simpel te doen te klikken op waar je interesse hebt.
+            Zoals de vorige stap liet zien, navigeren in de app doe je door te klikken op waar je interesse naar uit gaat.
             <br />
             <br />
             Wil je vervolgens weer terug naar de het hoofdmenu? Druk dan op de
-            “Pijl” knop lte vinden inks boven op het scherm.
+            “Pijl” knop links boven op het scherm.
           </p>
           <img src={Tutorial} alt="" style={styles.tutorial} />
           <NavLink to="/tutorial-3">

@@ -1,9 +1,9 @@
 const styles = {
   text: {
-    margin: "25vh 15vw 0vh 15vw",
+    margin: "20vh 15vw 0vh 15vw",
   },
   jasjeZijnDiv: {
-    height: "60vh"
+    height: "65vh"
   },
   tutorial: {
     position: "absolute",

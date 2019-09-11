@@ -14,8 +14,23 @@
     line-height: 1.4em;
 }
 
+@media (max-width: 325px) {
+  .ui.button, .ui.orange.button, .ui.big.button{
+    font-size: 1rem;
+  }
 
-  @media (max-width: 767px){
+  h1 {
+    min-height: 1rem;
+    font-size: 2rem;
+}
+p {
+  min-height: 1rem;
+  font-size: .85rem;
+}
+}
+
+
+  @media (max-width: 767px) and (min-width: 325px){
     .ui.button, .ui.orange.button, .ui.big.button{
       font-size: 1rem;
     }
@@ -29,7 +44,8 @@
     font-size: 1rem;
 }
   }
-
+ 
+  
   @media (min-width: 767px) {
     .ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) {
       font-size: 2em;

@@ -12,11 +12,10 @@ class Tutorial3 extends Component {
         <HeaderEmpty />
         <div style={styles.jasjeZijnDiv}>
           <p style={styles.text}>
-            We proberen elk jaar de workshops op P&O dagen Rijk interessanter en
-            beter te maken. Daar hebben we jouw feedback voor nodig. Het
-            ismogelijk om direct je feedback te geven na het volgen van een
+            We proberen elk jaar de workshops op P&O dagen Rijk interessanter te maken en het aanbod te verbeteren. Daar hebben we jouw feedback voor nodig. Het
+            is mogelijk om direct je feedback te geven na het volgen van een
             workshop. Dit kan je doen door op de knop “Feedback” te drukken
-            onder de workshops
+            onder een workshop.
           </p>
           <img src={Tutorial} alt="" style={styles.tutorial} />
           <NavLink to="/tutorial-4">
