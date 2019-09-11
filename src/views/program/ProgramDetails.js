@@ -44,9 +44,11 @@ class ProgramDetails extends Component {
 
         <Subscribe to={[AppState]}>
           {appState => (
-            <div style={{
-              padding: "0 0 2vh 0"
-            }}>
+            <div
+              style={{
+                padding: "0 0 2vh 0"
+              }}
+            >
               <div style={styles.container}>
                 <img
                   src={ProgramImage}
@@ -63,10 +65,12 @@ class ProgramDetails extends Component {
                 <p style={styles.redText}>
                   Locatie : {appState.state.eventInfo.location}
                 </p>
-                <p style={styles.redText}>
-                  {appState.state.speakerInfo.speaker}{" "}
-                  {appState.state.speakerInfo.name}
-                </p>
+                {appState.state.speakerInfo.speaker && (
+                  <p style={styles.redText}>
+                    {appState.state.speakerInfo.speaker}{" "}
+                    {appState.state.speakerInfo.name}
+                  </p>
+                )}
               </div>
               {appState.state.speakerInfo.speaker && (
                 <NavLink to="/program-speaker">

@@ -115,43 +115,28 @@ const DenHaag = {
       eventInfo: {
         time: "9:30",
         name: "Inloop + infomarkt",
-        location: "Zaal X",
-        text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod lacus et erat mattis, eget dapibus mauris convallis. Phasellus mollis tellus non nisl porttitor varius et et diam. Nulla in est nibh. Nunc ullamcorper ornare urna quis laoreet. Pellentesque non rhoncus quam, sed facilisis odio. Morbi nec turpis tincidunt, porttitor eros id, dictum augue. Aenean sit amet interdum eros, ut rhoncus purus. Curabitur at lorem id urna tristique mattis in quis ante. Ut fringilla aliquet libero et lobortis. Ut ornare libero in congue egestas. Vestibulum elementum egestas ex feugiat suscipit. Morbi sed nunc feugiat, molestie sem ut, consequat mauris. In ornare leo et libero tempus, in feugiat enim volutpat. Phasellus euismod, mauris condimentum pellentesque malesuada, quam est sagittis purus, ac laoreet leo sem non dolor. Quisque tortor orci, pretium quis lectus at, volutpat rutrum sem. Phasellus ultrices libero eget tellus ullamcorper, quis scelerisque lacus convallis.`
+        location: "Cateringplein",
+        text: `We heten je van harte welkom op de P&O Dagen Rijks 2019. Neem gerust wat koffie en neem een kijkje bij de verschillende stands. Ben je bijvoorbeeld op de hoogte van de verschillende opleidingen die de RAFEB aanbiedt? Of welke loopbaanstappen en leerlijnen er zijn voor de lage loonschalen?`
       },
-      speakerInfo: {
-        image: require("../../assets/Program/Speaker.png"),
-        speaker: "Spreker : komt nog",
-        name: "komt nog",
-        text: "komt nog"
-      }
+      speakerInfo: {}
     },
     {
       eventInfo: {
         time: "10:15",
         name: "Start plenair programma",
-        location: "Zaal X",
-        text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod lacus et erat mattis, eget dapibus mauris convallis. Phasellus mollis tellus non nisl porttitor varius et et diam. Nulla in est nibh. Nunc ullamcorper ornare urna quis laoreet. Pellentesque non rhoncus quam, sed facilisis odio. Morbi nec turpis tincidunt, porttitor eros id, dictum augue. Aenean sit amet interdum eros, ut rhoncus purus. Curabitur at lorem id urna tristique mattis in quis ante. Ut fringilla aliquet libero et lobortis. Ut ornare libero in congue egestas. Vestibulum elementum egestas ex feugiat suscipit. Morbi sed nunc feugiat, molestie sem ut, consequat mauris. In ornare leo et libero tempus, in feugiat enim volutpat. Phasellus euismod, mauris condimentum pellentesque malesuada, quam est sagittis purus, ac laoreet leo sem non dolor. Quisque tortor orci, pretium quis lectus at, volutpat rutrum sem. Phasellus ultrices libero eget tellus ullamcorper, quis scelerisque lacus convallis.`
+        location: "Motorruimte",
+        text: `De plenaire opening kent een druk bezet programma! De dagvoorzitter, Sicco Louw (Interim Directeur P&O en Directeur BZK flex) opent. De keynote van vandaag, professor Lidewey van der Sluis aan Nyenrode Business Universiteit, zal daarna het woord nemen. Bekend om haar expertise en scherpe visie op leiderschap, trends op de arbeidsmarkt en  ontwikkeling op de organisatie en talentmanagemt, neemt Lidewey je mee in de meest actuele themas rondom P&O en organisatieontwikkeling. Na de keynote  zal Ellen Viergiever (DT lid Organisatie Ontwikkeling Rijk)  het thema "Organisatie Ontwikkeling" bij het Rijk toelichten, gevolgd door een bankgesprek met verschillende sprekers over dit thema. Voel je vrij om vragen te stellen tijdens het bankgesprek!`
       },
-      speakerInfo: {
-        image: require("../../assets/Program/Speaker.png"),
-        speaker: "Spreker : komt nog",
-        name: "komt nog",
-        text: "komt nog"
-      }
+      speakerInfo: {}
     },
     {
       eventInfo: {
         time: "12:00",
         name: "Lunch + infomarkt",
-        location: "Zaal X",
-        text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod lacus et erat mattis, eget dapibus mauris convallis. Phasellus mollis tellus non nisl porttitor varius et et diam. Nulla in est nibh. Nunc ullamcorper ornare urna quis laoreet. Pellentesque non rhoncus quam, sed facilisis odio. Morbi nec turpis tincidunt, porttitor eros id, dictum augue. Aenean sit amet interdum eros, ut rhoncus purus. Curabitur at lorem id urna tristique mattis in quis ante. Ut fringilla aliquet libero et lobortis. Ut ornare libero in congue egestas. Vestibulum elementum egestas ex feugiat suscipit. Morbi sed nunc feugiat, molestie sem ut, consequat mauris. In ornare leo et libero tempus, in feugiat enim volutpat. Phasellus euismod, mauris condimentum pellentesque malesuada, quam est sagittis purus, ac laoreet leo sem non dolor. Quisque tortor orci, pretium quis lectus at, volutpat rutrum sem. Phasellus ultrices libero eget tellus ullamcorper, quis scelerisque lacus convallis.`
+        location: "Cateringplein",
+        text: `Tijdens de lunch worden verschillende versnaperingen geserveerd. Je wordt aangemoedigd om met broodje (en/of kop koffie) in de hand een kijkje te nemen bij de verschillende stands. Ben je bijvoorbeeld bekend met de WRNA? Of wil je een leuke foto met collega's maken in de Fotobooth?`
       },
-      speakerInfo: {
-        image: require("../../assets/Program/Speaker.png"),
-        speaker: "Spreker : komt nog",
-        name: "komt nog",
-        text: "komt nog"
-      }
+      speakerInfo: {}
     },
     {
       eventInfo: {
@@ -163,43 +148,37 @@ const DenHaag = {
     {
       eventInfo: {
         time: "14:30",
-        name: "Pauze"
-        // button: true
+        name: "Pauze",
+        location: "Cateringplein",
+        text:
+          "De pauze is het moment om te reflecteren met collega's op de belangrijkste inzichten uit de workshop die je net hebt bijgewoond. Vergeet ook niet feedback te geven in de app over de workshop!"
       },
-      speakerInfo: {
-        image: require("../../assets/Program/Speaker.png"),
-        speaker: "Spreker : komt nog",
-        name: "komt nog",
-        text: "komt nog"
+      speakerInfo: {}
+    },
+    {
+      eventInfo: {
+        time: "15:00",
+        name: "Workshopronde 2",
+        button: true
       }
     },
     {
       eventInfo: {
         time: "16:15",
-        name: "Plenaire afsluiting op ludiek wijze",
-        location: "Zaal X",
-        text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod lacus et erat mattis, eget dapibus mauris convallis. Phasellus mollis tellus non nisl porttitor varius et et diam. Nulla in est nibh. Nunc ullamcorper ornare urna quis laoreet. Pellentesque non rhoncus quam, sed facilisis odio. Morbi nec turpis tincidunt, porttitor eros id, dictum augue. Aenean sit amet interdum eros, ut rhoncus purus. Curabitur at lorem id urna tristique mattis in quis ante. Ut fringilla aliquet libero et lobortis. Ut ornare libero in congue egestas. Vestibulum elementum egestas ex feugiat suscipit. Morbi sed nunc feugiat, molestie sem ut, consequat mauris. In ornare leo et libero tempus, in feugiat enim volutpat. Phasellus euismod, mauris condimentum pellentesque malesuada, quam est sagittis purus, ac laoreet leo sem non dolor. Quisque tortor orci, pretium quis lectus at, volutpat rutrum sem. Phasellus ultrices libero eget tellus ullamcorper, quis scelerisque lacus convallis.`
+        name: "Plenaire afsluiting",
+        location: "Motorrplein",
+        text: `Zoals elk jaar kent de afsluiting van de P&O dagen Rijk weer een afsluiting met een knipoog. Na een korte samenvatting en reflectie van Sicco zal niemand anders Harry Glotzbach de afsluiting verzorgen (onder andere finalist Leids Cabaret Festival en winnaar van het het Amsterdams Kleinkunst Festival Comedy  Concours). Laat je verrassen door zijn bizar grappige kijk op de wereld om hem heen.`
       },
-      speakerInfo: {
-        image: require("../../assets/Program/Speaker.png"),
-        speaker: "Spreker : komt nog",
-        name: "komt nog",
-        text: "komt nog"
-      }
+      speakerInfo: {}
     },
     {
       eventInfo: {
         time: "16:45",
         name: "Netwerkborrel",
-        location: "Zaal X",
-        text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod lacus et erat mattis, eget dapibus mauris convallis. Phasellus mollis tellus non nisl porttitor varius et et diam. Nulla in est nibh. Nunc ullamcorper ornare urna quis laoreet. Pellentesque non rhoncus quam, sed facilisis odio. Morbi nec turpis tincidunt, porttitor eros id, dictum augue. Aenean sit amet interdum eros, ut rhoncus purus. Curabitur at lorem id urna tristique mattis in quis ante. Ut fringilla aliquet libero et lobortis. Ut ornare libero in congue egestas. Vestibulum elementum egestas ex feugiat suscipit. Morbi sed nunc feugiat, molestie sem ut, consequat mauris. In ornare leo et libero tempus, in feugiat enim volutpat. Phasellus euismod, mauris condimentum pellentesque malesuada, quam est sagittis purus, ac laoreet leo sem non dolor. Quisque tortor orci, pretium quis lectus at, volutpat rutrum sem. Phasellus ultrices libero eget tellus ullamcorper, quis scelerisque lacus convallis.`
+        location: "Cateringplein",
+        text: `Sluit de dag af met een gezellig drankje en borrel hapje. Hopelijk kan je terugkijken op een geslaagde P&O dag Rijk. Vergeet niet de algehele evaluatie in te vullen en je ervaring met ons te delen.`
       },
-      speakerInfo: {
-        image: require("../../assets/Program/Speaker.png"),
-        speaker: "Spreker : komt nog",
-        name: "komt nog",
-        text: "komt nog"
-      }
+      speakerInfo: {}
     }
   ]
 };
@@ -311,43 +290,28 @@ const Nieuwegein = {
       eventInfo: {
         time: "9:30",
         name: "Inloop + infomarkt",
-        location: "Zaal X",
-        text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod lacus et erat mattis, eget dapibus mauris convallis. Phasellus mollis tellus non nisl porttitor varius et et diam. Nulla in est nibh. Nunc ullamcorper ornare urna quis laoreet. Pellentesque non rhoncus quam, sed facilisis odio. Morbi nec turpis tincidunt, porttitor eros id, dictum augue. Aenean sit amet interdum eros, ut rhoncus purus. Curabitur at lorem id urna tristique mattis in quis ante. Ut fringilla aliquet libero et lobortis. Ut ornare libero in congue egestas. Vestibulum elementum egestas ex feugiat suscipit. Morbi sed nunc feugiat, molestie sem ut, consequat mauris. In ornare leo et libero tempus, in feugiat enim volutpat. Phasellus euismod, mauris condimentum pellentesque malesuada, quam est sagittis purus, ac laoreet leo sem non dolor. Quisque tortor orci, pretium quis lectus at, volutpat rutrum sem. Phasellus ultrices libero eget tellus ullamcorper, quis scelerisque lacus convallis.`
+        location: "Lobby",
+        text: `We heten je van harte welkom op de P&O Dagen Rijks 2019. Neem gerust wat koffie en neem een kijkje bij de verschillende stands. Ben je bijvoorbeeld op de hoogte van de verschillende opleidingen die de RAFEB aanbiedt? Of welke loopbaanstappen en leerlijnen er zijn voor de lage loonschalen?`
       },
-      speakerInfo: {
-        image: require("../../assets/Program/Speaker.png"),
-        speaker: "Spreker : komt nog",
-        name: "komt nog",
-        text: "komt nog"
-      }
+      speakerInfo: {}
     },
     {
       eventInfo: {
         time: "10:15",
         name: "Start plenair programma",
-        location: "Zaal X",
-        text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod lacus et erat mattis, eget dapibus mauris convallis. Phasellus mollis tellus non nisl porttitor varius et et diam. Nulla in est nibh. Nunc ullamcorper ornare urna quis laoreet. Pellentesque non rhoncus quam, sed facilisis odio. Morbi nec turpis tincidunt, porttitor eros id, dictum augue. Aenean sit amet interdum eros, ut rhoncus purus. Curabitur at lorem id urna tristique mattis in quis ante. Ut fringilla aliquet libero et lobortis. Ut ornare libero in congue egestas. Vestibulum elementum egestas ex feugiat suscipit. Morbi sed nunc feugiat, molestie sem ut, consequat mauris. In ornare leo et libero tempus, in feugiat enim volutpat. Phasellus euismod, mauris condimentum pellentesque malesuada, quam est sagittis purus, ac laoreet leo sem non dolor. Quisque tortor orci, pretium quis lectus at, volutpat rutrum sem. Phasellus ultrices libero eget tellus ullamcorper, quis scelerisque lacus convallis.`
+        location: "Combinatiezaal 18-19",
+        text: `De plenaire opening kent een druk bezet programma! De dagvoorzitter, Sicco Louw (Interim Directeur P&O en Directeur BZK flex) opent. De keynote van vandaag, professor Lidewey van der Sluis aan Nyenrode Business Universiteit, zal daarna het woord nemen. Bekend om haar expertise en scherpe visie op leiderschap, trends op de arbeidsmarkt en  ontwikkeling op de organisatie en talentmanagemt, neemt Lidewey je mee in de meest actuele themas rondom P&O en organisatieontwikkeling. Na de keynote  zal Ellen Viergiever (DT lid Organisatie Ontwikkeling Rijk)  het thema "Organisatie Ontwikkeling" bij het Rijk toelichten, gevolgd door een bankgesprek met verschillende sprekers over dit thema. Voel je vrij om vragen te stellen tijdens het bankgesprek!`
       },
-      speakerInfo: {
-        image: require("../../assets/Program/Speaker.png"),
-        speaker: "Spreker : komt nog",
-        name: "komt nog",
-        text: "komt nog"
-      }
+      speakerInfo: {}
     },
     {
       eventInfo: {
         time: "12:00",
         name: "Lunch + infomarkt",
-        location: "Zaal X",
-        text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod lacus et erat mattis, eget dapibus mauris convallis. Phasellus mollis tellus non nisl porttitor varius et et diam. Nulla in est nibh. Nunc ullamcorper ornare urna quis laoreet. Pellentesque non rhoncus quam, sed facilisis odio. Morbi nec turpis tincidunt, porttitor eros id, dictum augue. Aenean sit amet interdum eros, ut rhoncus purus. Curabitur at lorem id urna tristique mattis in quis ante. Ut fringilla aliquet libero et lobortis. Ut ornare libero in congue egestas. Vestibulum elementum egestas ex feugiat suscipit. Morbi sed nunc feugiat, molestie sem ut, consequat mauris. In ornare leo et libero tempus, in feugiat enim volutpat. Phasellus euismod, mauris condimentum pellentesque malesuada, quam est sagittis purus, ac laoreet leo sem non dolor. Quisque tortor orci, pretium quis lectus at, volutpat rutrum sem. Phasellus ultrices libero eget tellus ullamcorper, quis scelerisque lacus convallis.`
+        location: "Lobby",
+        text: `Tijdens de lunch worden verschillende versnaperingen geserveerd. Je wordt aangemoedigd om met broodje (en/of kop koffie) in de hand een kijkje te nemen bij de verschillende stands. Ben je bijvoorbeeld bekend met de WRNA? Of wil je een leuke foto met collega's maken in de Fotobooth?`
       },
-      speakerInfo: {
-        image: require("../../assets/Program/Speaker.png"),
-        speaker: "Spreker : komt nog",
-        name: "komt nog",
-        text: "komt nog"
-      }
+      speakerInfo: {}
     },
     {
       eventInfo: {
@@ -359,41 +323,42 @@ const Nieuwegein = {
     {
       eventInfo: {
         time: "14:30",
-        name: "Pauze"
+        name: "Pauze",
+        location: "Lobby",
+        text:
+          "De pauze is het moment om te reflecteren met collega's op de belangrijkste inzichten uit de workshop die je net hebt bijgewoond. Vergeet ook niet feedback te geven in de app over de workshop!"
       },
-      speakerInfo: {
-        image: require("../../assets/Program/Speaker.png"),
-        speaker: "Spreker : komt nog",
-        name: "komt nog",
-        text: "komt nog"
+      speakerInfo: {}
+    },
+    {
+      eventInfo: {
+        time: "15:00",
+        name: "Workshopronde 2",
+        button: true
       }
     },
     {
       eventInfo: {
         time: "16:15",
-        name: "Plenaire afsluiting op ludiek wijze",
+        name: "Plenaire afsluiting ",
+        location: "Combinatiezaal 18-19",
         location: "Zaal X",
-        text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod lacus et erat mattis, eget dapibus mauris convallis. Phasellus mollis tellus non nisl porttitor varius et et diam. Nulla in est nibh. Nunc ullamcorper ornare urna quis laoreet. Pellentesque non rhoncus quam, sed facilisis odio. Morbi nec turpis tincidunt, porttitor eros id, dictum augue. Aenean sit amet interdum eros, ut rhoncus purus. Curabitur at lorem id urna tristique mattis in quis ante. Ut fringilla aliquet libero et lobortis. Ut ornare libero in congue egestas. Vestibulum elementum egestas ex feugiat suscipit. Morbi sed nunc feugiat, molestie sem ut, consequat mauris. In ornare leo et libero tempus, in feugiat enim volutpat. Phasellus euismod, mauris condimentum pellentesque malesuada, quam est sagittis purus, ac laoreet leo sem non dolor. Quisque tortor orci, pretium quis lectus at, volutpat rutrum sem. Phasellus ultrices libero eget tellus ullamcorper, quis scelerisque lacus convallis.`
+        text: `Zoals elk jaar kent de afsluiting van de P&O dagen Rijk weer een afsluiting met een knipoog. Na een korte samenvatting en reflectie van Sicco zal niemand anders Harry Glotzbach de afsluiting verzorgen (onder andere finalist Leids Cabaret Festival en winnaar van het het Amsterdams Kleinkunst Festival Comedy  Concours). Laat je verrassen door zijn bizar grappige kijk op de wereld om hem heen.`
       },
-      speakerInfo: {
-        image: require("../../assets/Program/Speaker.png"),
-        speaker: "Spreker : komt nog",
-        name: "komt nog",
-        text: "komt nog"
-      }
+      speakerInfo: {}
     },
     {
       eventInfo: {
         time: "16:45",
         name: "Netwerkborrel",
-        location: "Zaal X",
-        text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod lacus et erat mattis, eget dapibus mauris convallis. Phasellus mollis tellus non nisl porttitor varius et et diam. Nulla in est nibh. Nunc ullamcorper ornare urna quis laoreet. Pellentesque non rhoncus quam, sed facilisis odio. Morbi nec turpis tincidunt, porttitor eros id, dictum augue. Aenean sit amet interdum eros, ut rhoncus purus. Curabitur at lorem id urna tristique mattis in quis ante. Ut fringilla aliquet libero et lobortis. Ut ornare libero in congue egestas. Vestibulum elementum egestas ex feugiat suscipit. Morbi sed nunc feugiat, molestie sem ut, consequat mauris. In ornare leo et libero tempus, in feugiat enim volutpat. Phasellus euismod, mauris condimentum pellentesque malesuada, quam est sagittis purus, ac laoreet leo sem non dolor. Quisque tortor orci, pretium quis lectus at, volutpat rutrum sem. Phasellus ultrices libero eget tellus ullamcorper, quis scelerisque lacus convallis.`
+        location: "Lobby",
+        text: `Sluit de dag af met een gezellig drankje en borrel hapje. Hopelijk kan je terugkijken op een geslaagde P&O dag Rijk. Vergeet niet de algehele evaluatie in te vullen en je ervaring met ons te delen.`
       },
       speakerInfo: {
-        image: require("../../assets/Program/Speaker.png"),
-        speaker: "Spreker : komt nog",
-        name: "komt nog",
-        text: "komt nog"
+        // image: require("../../assets/Program/Speaker.png"),
+        // speaker: "Geen spreker",
+        // name: "komt nog",
+        // text: "komt nog"
       }
     }
   ]
