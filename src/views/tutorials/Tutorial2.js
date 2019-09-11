@@ -12,7 +12,7 @@ class Tutorial2 extends Component {
         <HeaderEmpty />
         <div style={styles.jasjeZijnDiv}>
           <p style={styles.text}>
-            Zoals de vorige stap liet zien, navigeren in de app doe je door te klikken op waar je interesse naar uit gaat.
+            Zoals het vorige scherm laat zien, navigeren in de app doe je door te klikken op waar je interesse naar uit gaat.
             <br />
             <br />
             Wil je vervolgens weer terug naar de het hoofdmenu? Druk dan op de

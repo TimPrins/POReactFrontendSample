@@ -116,7 +116,7 @@ const DenHaag = {
         time: "9:30",
         name: "Inloop + infomarkt",
         location: "Cateringplein",
-        text: `We heten je van harte welkom op de P&O Dagen Rijks 2019. Neem gerust wat koffie en neem een kijkje bij de verschillende stands. Ben je bijvoorbeeld op de hoogte van de verschillende opleidingen die de RAFEB aanbiedt? Of welke loopbaanstappen en leerlijnen er zijn voor de lage loonschalen?`,
+        text: `We heten je van harte welkom op de P&O Dagen Rijk 2019. We nodigen je graag uit om een kijkje te nemen bij de verschillende stands. Ben je bijvoorbeeld op de hoogte van de verschillende opleidingen die de RAFEB aanbiedt? Of welke loopbaanstappen en leerlijnen er zijn voor de lage loonschalen?`,
         banner: require("../../assets/Program/Banner1.png")
       },
       speakerInfo: {}
@@ -126,7 +126,7 @@ const DenHaag = {
         time: "10:15",
         name: "Start plenair programma",
         location: "Motorruimte",
-        text: `De plenaire opening kent een druk bezet programma! De dagvoorzitter, Sicco Louw (Interim Directeur P&O en Directeur BZK flex) opent. De keynote van vandaag, professor Lidewey van der Sluis aan Nyenrode Business Universiteit, zal daarna het woord nemen. Bekend om haar expertise en scherpe visie op leiderschap, trends op de arbeidsmarkt en  ontwikkeling op de organisatie en talentmanagemt, neemt Lidewey je mee in de meest actuele themas rondom P&O en organisatieontwikkeling. Na de keynote  zal Ellen Viergiever (DT lid Organisatie Ontwikkeling Rijk)  het thema "Organisatie Ontwikkeling" bij het Rijk toelichten, gevolgd door een bankgesprek met verschillende sprekers over dit thema. Voel je vrij om vragen te stellen tijdens het bankgesprek!`,
+        text: `De plenaire opening kent een druk bezet programma! De dagvoorzitter, Sicco Louw (Interim Directeur P&O en Directeur BZK flex) opent. De keynote spreekster, professor Lidewey van der Sluis aan Nyenrode Business Universiteit, zal daarna het woord nemen. Bekend om haar expertise en scherpe visie op leiderschap, trends op de arbeidsmarkt en ontwikkeling op de organisatie en talentmanagemt, neemt Lidewey je mee in de meest actuele themas rondom P&O en organisatieontwikkeling. Na de keynote zal Ellen Viergiever (DT lid Organisatie Ontwikkeling Rijk) het thema "Organisatie Ontwikkeling" bij het Rijk toelichten, gevolgd door een bankgesprek met verschillende sprekers over dit thema. Voel je vrij om vragen te stellen tijdens het bankgesprek!`,
         banner: require("../../assets/Program/Banner2.png")
       },
       speakerInfo: {}
@@ -136,7 +136,7 @@ const DenHaag = {
         time: "12:00",
         name: "Lunch + infomarkt",
         location: "Cateringplein",
-        text: `Tijdens de lunch worden verschillende versnaperingen geserveerd. Je wordt aangemoedigd om met broodje (en/of kop koffie) in de hand een kijkje te nemen bij de verschillende stands. Ben je bijvoorbeeld bekend met de WRNA? Of wil je een leuke foto met collega's maken in de Fotobooth?`,
+        text: `Tijdens de lunch worden verschillende versnaperingen geserveerd. Je wordt aangemoedigd om met een broodje (en/of een kop koffie) in de hand een kijkje te nemen bij de verschillende stands. Ben je bijvoorbeeld bekend met de WRNA? Of wil je een leuke foto met collega's maken in de Fotobooth?`,
         banner: require("../../assets/Program/Banner1.png")
       },
       speakerInfo: {}
@@ -154,7 +154,7 @@ const DenHaag = {
         name: "Pauze",
         location: "Cateringplein",
         text:
-          "De pauze is het moment om te reflecteren met collega's op de belangrijkste inzichten uit de workshop die je net hebt bijgewoond. Vergeet ook niet feedback te geven in de app over de workshop!",
+          "De pauze is het moment om samen met je collega's te reflecteren op de belangrijkste inzichten uit de workshops. Vergeet ook niet feedback te geven in de app over de workshop die je hebt bijgewoond!",
         banner: require("../../assets/Program/Banner3.png")
       },
       speakerInfo: {}
@@ -171,7 +171,7 @@ const DenHaag = {
         time: "16:15",
         name: "Plenaire afsluiting",
         location: "Motorrplein",
-        text: `Zoals elk jaar kent de afsluiting van de P&O dagen Rijk weer een afsluiting met een knipoog. Na een korte samenvatting en reflectie van Sicco zal niemand anders Harry Glotzbach de afsluiting verzorgen (onder andere finalist Leids Cabaret Festival en winnaar van het het Amsterdams Kleinkunst Festival Comedy  Concours). Laat je verrassen door zijn bizar grappige kijk op de wereld om hem heen.`,
+        text: `Zoals elk jaar kent de afsluiting van de P&O dagen Rijk een afsluiting met een knipoog. Na een korte samenvatting en reflectie van Sicco zal niemand anders Harry Glotzbach (onder andere finalist Leids Cabaret Festival en winnaar van het het Amsterdams Kleinkunst Festival Comedy Concours) de afsluiting verzorgen. Laat je verrassen door zijn bizar grappige kijk op de wereld om hem heen.`,
         banner: require("../../assets/Program/Banner2.png")
       },
       speakerInfo: {}
@@ -181,7 +181,7 @@ const DenHaag = {
         time: "16:45",
         name: "Netwerkborrel",
         location: "Cateringplein",
-        text: `Sluit de dag af met een gezellig drankje en borrel hapje. Hopelijk kan je terugkijken op een geslaagde P&O dag Rijk. Vergeet niet de algehele evaluatie in te vullen en je ervaring met ons te delen.`,
+        text: `Sluit de dag af met een gezellig drankje en borrel hapje. We hopen dat je kan terugkijken op een geslaagde P&O dag Rijk. Vergeet niet de algehele evaluatie in te vullen en je ervaring met ons te delen.`,
         banner: require("../../assets/Program/Banner1.png")
       },
       speakerInfo: {}
@@ -297,7 +297,7 @@ const Nieuwegein = {
         time: "9:30",
         name: "Inloop + infomarkt",
         location: "Lobby",
-        text: `We heten je van harte welkom op de P&O Dagen Rijks 2019. Neem gerust wat koffie en neem een kijkje bij de verschillende stands. Ben je bijvoorbeeld op de hoogte van de verschillende opleidingen die de RAFEB aanbiedt? Of welke loopbaanstappen en leerlijnen er zijn voor de lage loonschalen?`,
+        text: `We heten je van harte welkom op de P&O Dagen Rijk 2019. We nodigen je graag uit om een kijkje te nemen bij de verschillende stands. Ben je bijvoorbeeld op de hoogte van de verschillende opleidingen die de RAFEB aanbiedt? Of welke loopbaanstappen en leerlijnen er zijn voor de lage loonschalen?`,
         banner: require("../../assets/Program/Banner1.png")
       },
       speakerInfo: {}
@@ -307,7 +307,7 @@ const Nieuwegein = {
         time: "10:15",
         name: "Start plenair programma",
         location: "Combinatiezaal 18-19",
-        text: `De plenaire opening kent een druk bezet programma! De dagvoorzitter, Sicco Louw (Interim Directeur P&O en Directeur BZK flex) opent. De keynote van vandaag, professor Lidewey van der Sluis aan Nyenrode Business Universiteit, zal daarna het woord nemen. Bekend om haar expertise en scherpe visie op leiderschap, trends op de arbeidsmarkt en  ontwikkeling op de organisatie en talentmanagemt, neemt Lidewey je mee in de meest actuele themas rondom P&O en organisatieontwikkeling. Na de keynote  zal Ellen Viergiever (DT lid Organisatie Ontwikkeling Rijk)  het thema "Organisatie Ontwikkeling" bij het Rijk toelichten, gevolgd door een bankgesprek met verschillende sprekers over dit thema. Voel je vrij om vragen te stellen tijdens het bankgesprek!`,
+        text: `De plenaire opening kent een druk bezet programma! De dagvoorzitter, Sicco Louw (Interim Directeur P&O en Directeur BZK flex) opent. De keynote spreekster, professor Lidewey van der Sluis aan Nyenrode Business Universiteit, zal daarna het woord nemen. Bekend om haar expertise en scherpe visie op leiderschap, trends op de arbeidsmarkt en ontwikkeling op de organisatie en talentmanagemt, neemt Lidewey je mee in de meest actuele themas rondom P&O en organisatieontwikkeling. Na de keynote zal Ellen Viergiever (DT lid Organisatie Ontwikkeling Rijk) het thema "Organisatie Ontwikkeling" bij het Rijk toelichten, gevolgd door een bankgesprek met verschillende sprekers over dit thema. Voel je vrij om vragen te stellen tijdens het bankgesprek!`,
         banner: require("../../assets/Program/Banner2.png")
       },
       speakerInfo: {}
@@ -317,7 +317,7 @@ const Nieuwegein = {
         time: "12:00",
         name: "Lunch + infomarkt",
         location: "Lobby",
-        text: `Tijdens de lunch worden verschillende versnaperingen geserveerd. Je wordt aangemoedigd om met broodje (en/of kop koffie) in de hand een kijkje te nemen bij de verschillende stands. Ben je bijvoorbeeld bekend met de WRNA? Of wil je een leuke foto met collega's maken in de Fotobooth?`,
+        text: `Tijdens de lunch worden verschillende versnaperingen geserveerd. Je wordt aangemoedigd om met een broodje (en/of een kop koffie) in de hand een kijkje te nemen bij de verschillende stands. Ben je bijvoorbeeld bekend met de WRNA? Of wil je een leuke foto met collega's maken in de Fotobooth?`,
         banner: require("../../assets/Program/Banner1.png")
       },
       speakerInfo: {}
@@ -335,7 +335,7 @@ const Nieuwegein = {
         name: "Pauze",
         location: "Lobby",
         text:
-          "De pauze is het moment om te reflecteren met collega's op de belangrijkste inzichten uit de workshop die je net hebt bijgewoond. Vergeet ook niet feedback te geven in de app over de workshop!",
+        "De pauze is het moment om samen met je collega's te reflecteren op de belangrijkste inzichten uit de workshops. Vergeet ook niet feedback te geven in de app over de workshop die je hebt bijgewoond!",
         banner: require("../../assets/Program/Banner3.png")
       },
       speakerInfo: {}
@@ -352,7 +352,7 @@ const Nieuwegein = {
         time: "16:15",
         name: "Plenaire afsluiting ",
         location: "Combinatiezaal 18-19",
-        text: `Zoals elk jaar kent de afsluiting van de P&O dagen Rijk weer een afsluiting met een knipoog. Na een korte samenvatting en reflectie van Sicco zal niemand anders Harry Glotzbach de afsluiting verzorgen (onder andere finalist Leids Cabaret Festival en winnaar van het het Amsterdams Kleinkunst Festival Comedy  Concours). Laat je verrassen door zijn bizar grappige kijk op de wereld om hem heen.`,
+        text: `Zoals elk jaar kent de afsluiting van de P&O dagen Rijk een afsluiting met een knipoog. Na een korte samenvatting en reflectie van Sicco zal niemand anders Harry Glotzbach (onder andere finalist Leids Cabaret Festival en winnaar van het het Amsterdams Kleinkunst Festival Comedy Concours) de afsluiting verzorgen. Laat je verrassen door zijn bizar grappige kijk op de wereld om hem heen.`,
         banner: require("../../assets/Program/Banner2.png")
       },
       speakerInfo: {}
@@ -362,7 +362,7 @@ const Nieuwegein = {
         time: "16:45",
         name: "Netwerkborrel",
         location: "Lobby",
-        text: `Sluit de dag af met een gezellig drankje en borrel hapje. Hopelijk kan je terugkijken op een geslaagde P&O dag Rijk. Vergeet niet de algehele evaluatie in te vullen en je ervaring met ons te delen.`,
+        text: `Sluit de dag af met een gezellig drankje en borrel hapje. We hopen dat je kan terugkijken op een geslaagde P&O dag Rijk. Vergeet niet de algehele evaluatie in te vullen en je ervaring met ons te delen.`,
         banner: require("../../assets/Program/Banner1.png")
       },
       speakerInfo: {
