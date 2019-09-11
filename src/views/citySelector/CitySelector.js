@@ -94,7 +94,7 @@ const DenHaag = {
     {
       title: "What makes you tick?! Waarom doe ik wat ik doe?",
       location: "Zaal 15",
-      leader: "Ellen Viergever & Hermien van Triest",
+      leader: "Ellen Viergever & Henk Van der Steen",
       text:
         "Waarom werk je voor de Rijksoverheid? Wat motiveert jou? Wat maakt het werken voor de publieke zaak zo bijzonder? Wat geeft jou energie op je werk? En hoe zit dat in deze tijden van grote veranderingen? Onze SG’s willen met elkaar werken aan de organisatie ontwikkeling bij het Rijken en zijn benieuwd naar antwoorden op deze vragen. Om vervolgens ook weer beter in staat te zijn om antwoorden te kunnen formuleren op de uitdagingen die ons als Rijksoverheid te wachten staan. Vanuit de kern dus, de bedoeling, de ‘purpose’ van ons werk. In deze workshop ga je op een bijzondere manier met collega’s in gesprek, hoor je inspirerende verhalen en ga je met nieuwe energie weer naar buiten! Deze workshop is onderdeel van een ontdekkingstocht naar de purpose van het Rijk die het komende jaar door veel verschillende plekken binnen de Rijksoverheid trekt ",
       smallImage: require("../../assets/Workshops/DenHaag/10-Ellen-Viergever.JPG"),
@@ -208,7 +208,7 @@ const Nieuwegein = {
   workshops: [
     {
       title: "Wendbaar werken",
-      location: "Zaal X",
+      location: "Zaal 8",
       leader: "Ruud van Rheenen",
       text:
         "Er is niets gevaarlijker dan over een ravijn springen in twee sprongen.” Mensen en organisaties staan in steeds grotere mate voor de uitdaging wendbaar in te spelen op de veranderingen in het werk, technologische ontwikkelingen en de trends in de samenleving De opgaven waar overheden aan bijdragen kiezen zij niet meer alleen, maar in nauw contact met hun omgeving of het overkomt ze zelfs. Het werken aan veranderende opgaven, waarin invloed en besluitvorming samen met partners gebeurt is nieuwe werkelijkheid en vraagt om het vermogen de eigen rol en koers snel en effectief te veranderen. Dit vraagt om andere vormen van leiderschap, een hoge mate van autonomie en resultaatverantwoordelijkheid én nieuwe manieren om de ambities en talenten van alle medewerkers optimaal te benutten. Maar hoe werkt dat in de praktijk? In deze workshop geeft Ruud van Rheenen, specialist op het gebied van Wendbaar Werken, inzicht in de manier waarop diverse organisaties concreet invulling geven aan deze uitdaging. ",
@@ -217,7 +217,7 @@ const Nieuwegein = {
     },
     {
       title: "Van papier naar praktijk: inleiding in de gedragsverandering ",
-      location: "Zaal X",
+      location: "Zaal 5",
       leader: "Mandy de Visser",
       text:
         "In ronkende (beleids)taal staat beschreven hoe we de toekomst voor ons zien. Een toekomst met duurzaam inzetbare medewerkers en inclusieve teams die optimaal presteren in een prettige werkomgeving. De praktijk is alleen een stuk rommeliger en niet zo heel makkelijk te veranderen. Want hoe doorbreek je de vaste gewoontes van medewerkers en leidinggevenden? Een toverstokje is er niet, maar met behulp van communicatie kun je het gedrag van mensen wel beïnvloeden. In deze workshop leer je hoe je dat gedrag in je organisatie kunt analyseren en de beste interventies kunt kiezen.",
@@ -226,7 +226,7 @@ const Nieuwegein = {
     },
     {
       title: "Organisatie Ontwikkeling: De sleutelrol van medewerkers",
-      location: "Zaal X",
+      location: "Zaal 9",
       leader: "Jason Gawke",
       text:
         "Organisatie ontwikkeling gaat per definitie over het functioneren van de organisatie in de toekomst, maar hoe medewerkers - in het hier en nu - hun werk invullen, is daarbij bepalend. In deze workshop maak je kennis met state of the art inzichten over hoe je als HR professionals medewerkers hierin kan activeren en hoe je rekening kan houden met hun individuele verschillen. ",
@@ -235,7 +235,7 @@ const Nieuwegein = {
     },
     {
       title: "Route naar een inclusieve cultuur",
-      location: "Zaal X",
+      location: "Zaal 6",
       leader: "Saniye Celik",
       text:
         "De rijksoverheid heeft diversiteit en inclusie tot een van haar belangrijkste speerpunten benoemd voor de komende jaren. P&O’ers, beleidsadviseurs en leidinggevenden spelen een prominente rol bij het creëren van een werkomgeving waar iedereen zich gewaardeerd en thuis voelt. Dat doet er toe, want in een inclusieve cultuur zijn mensen productiever, creatiever en effectiever. In deze workshop delen Bouchra Talidi en Annick Smits waardevolle tips én minder succesvolle ervaringen over Diversiteit & Inclusie beleid binnen het ministerie. Loop weg met concrete ideeën over aan welke knop(pen) jij kunt gaan draaien binnen je werkomgeving. Bouchra Talidi (programma manager) en Annick Smits werken voor het programma Diversiteit & Inclusie binnen het ministerie van Sociale Zaken en Werkgelegenheid. ",
@@ -253,7 +253,7 @@ const Nieuwegein = {
     },
     {
       title: "FGR inzetten bij wendbaar organiseren",
-      location: "Zaal X",
+      location: "Zaal 10",
       leader: "Regina Koning",
       text:
         "Een flexibel functiegebouw Rijk geeft ruimte aan mens en organisatie Medewerkers en organisaties worden niet wendbaarder door dat van bovenaf op te leggen. Dat gebeurt alleen als iedereen de mogelijkheden ontdekt en daar ook voordeel in ontdekt en ervaart. Dat betekent soms een andere manier van samenwerken binnen de organisatie, waarbij medewerkers en managers samen invulling kunnen geven aan de ruimte die geboden wordt. Die ruimte kan door medewerker en management gebruikt worden om zich in te zetten op verschillende plekken, of door wisselende teams samen te stellen, afhankelijk van de vraag, interesse en het werkaanbod. Organisaties kunnen zo experimenteren, innoveren en nieuwe vaardigheden aanleren. Benieuwd hoe het FGR hierop in kan spelen en daarvoor door jou gebruikt kan worden? Geef je dan op voor de workshop! ",
@@ -262,7 +262,7 @@ const Nieuwegein = {
     },
     {
       title: "Adaptieve Krijgsmacht",
-      location: "Zaal X",
+      location: "Zaal 12",
       leader: "Ernst Lobbezoo",
       text:
         "Defensie is na jarenlange bezuinigingen snel aan het versterken en innoveren. Dat is nodig omdat de veiligheid van Nederland –en de landen waar we worden ingezet- steeds vaker en gevarieerder onder druk staat. Defensie staat daarbij garant voor haar maatschappelijke opdracht. Zij kan en wil die rol niet alleen invullen, en kiest er strategisch voor om haar uitdagingen genetwerkt met civiele en militaire partners op te lossen. Dat heeft verregaande implicaties voor het HR-stelsel. Omdenken en kantalen van een ‘optimaal gesloten P-organisatie’ naar verregaande ‘genetwerkte samenwerking’ en de opbouw van een hoogwaardige flexibele workforce vraagt om leidershap en creativiteit. Werkgeverschap in een ecosysteem, waar loopt Defensie tegen aan? Kolonel Ernst Lobbezoo neemt ons mee op de door defensie ingeslagen reis naar de Adaptieve Krijgsmacht,  die de Nederlandse krijgsmacht wendbaarder en slagvaardiger gaat maken in een onvoorspelbare en onvoorstelbare veiligheidsomgeving en dat combineert met innovatiever en aantrekkelijker werkgeverschap.",
@@ -271,7 +271,7 @@ const Nieuwegein = {
     },
     {
       title: " Dilemmalogica: leg het probleem op tafel ",
-      location: "Zaal X",
+      location: "Zaal 11",
       leader: "Guido Rijnja",
       text:
         "Waarom focussen we bij communicatie zoveel op opbrengsten en uitkomsten? Je krijgt veel meer steun bij contact over het probleem. Dilemmalogica’ staat voor eerste hulp bij ordening van ongemak. ‘Elk nadeel heb se voordeel’, noemde Johan Cruijif dat. Of anders om. Wie maar één kant belicht, laat een kans liggen op écht contact. Ervaringen met deze insteek bij diverse kabinetsthema’s maakt duidelijk wat kansen zijn van eerdere actieve openheid, en ook welke risico’s eraan verbonden zijn. Guido Rijnja van de Rijksvoorlichtingsdienst neemt ons mee in ervaringen en daagt uit tot toepassing op eigen casuïstiek. ",
@@ -280,7 +280,7 @@ const Nieuwegein = {
     },
     {
       title: "Ambitie als lifestyle",
-      location: "Zaal X",
+      location: "Zaal 15",
       leader: "Lidewey van der Sluis",
       text:
         "Aan de hand van academische kennis en praktische inzichten zal op inspirerende en informatieve wijze worden besproken hoe medewerkers, teams en organisaties kunnen gaan bruisen van de energie. De perspectieven vanuit het individu en de organisatie wisselen elkaar af en lopen aan het eind in elkaar over. Deze sessie is een verdieping van de keynotesessie. ",
@@ -289,16 +289,16 @@ const Nieuwegein = {
     },
     {
       title: "What makes you tick?| Waarom doe ik wat ik doe?",
-      location: "Zaal X",
-      leader: "Ellen Viergever & Hermien van Triest ",
+      location: "Zaal 16",
+      leader: "Ellen Viergever & Henk Van der Steen ",
       text:
         "Waarom werk je voor de Rijksoverheid? Wat motiveert jou? Wat maakt het werken voor de publieke zaak zo bijzonder? Wat geeft jou energie op je werk? En hoe zit dat in deze tijden van grote veranderingen? Onze SG’s willen met elkaar werken aan de organisatie ontwikkeling bij het Rijken en zijn benieuwd naar antwoorden op deze vragen. Om vervolgens ook weer beter in staat te zijn om antwoorden te kunnen formuleren op de uitdagingen die ons als Rijksoverheid te wachten staan. Vanuit de kern dus, de bedoeling, de ‘purpose’ van ons werk. In deze workshop ga je op een bijzondere manier met collega’s in gesprek, hoor je inspirerende verhalen en ga je met nieuwe energie weer naar buiten! Deze workshop is onderdeel van een ontdekkingstocht naar de purpose van het Rijk die het komende jaar door veel verschillende plekken binnen de Rijksoverheid trekt ",
-      bigImage: require("../../assets/Workshops/Nieuwegein/10-Hermien-van-Triest-groot.PNG"),
-      smallImage: require("../../assets/Workshops/Nieuwegein/10-Hermien-van-Triest-klein.PNG")
+      smallImage: require("../../assets/Workshops/DenHaag/10-Ellen-Viergever.JPG"),
+      bigImage: require("../../assets/Workshops/DenHaag/10-Ellen-Viergever-Groot.png")
     },
     {
       title: "Cultuur als ontbijt",
-      location: "Zaal X",
+      location: "Zaal 17",
       leader: "Jan Peter Kuiper",
       text:
         "“Culture eats strategy for breakfast” zei Peter Drucker. Torben Rick maakte daar in 2014 “Organizational culture eats strategy for breakfast, lunch and dinner”. Maar wat is organisatiecultuur nu precies, wat kunnen we er mee en waarom is het zo belangrijk? In deze workshop maken we kennis met het begrip organisatiecultuur, we kijken naar het effect dat (cultuur) verschillen hebben op samenwerking en wat we daaruit voor ons zelf en ons P&O werk kunnen leren. De workshop is een combinatie van theorie en achtergronden, en groeps- en individuele oefeningen. De workshop wordt gegeven door drs Jan-Peter Kuiper. Jan-Peter is organisatie antropoloog en adviseur. Hij werkt bij het ministerie van Justitie en Veiligheid aan de dossiers ‘ongeschreven regels’, ‘samenwerken’ en ‘organisatie inrichting’. Daarnaast begeleidt hij als een van de oprichters van The Rebel Alliance cultuurveranderingstrajecten en reorganisaties bij onder meer overheden en onderwijs. ",
