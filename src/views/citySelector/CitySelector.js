@@ -352,7 +352,6 @@ const Nieuwegein = {
         time: "16:15",
         name: "Plenaire afsluiting ",
         location: "Combinatiezaal 18-19",
-        location: "Zaal X",
         text: `Zoals elk jaar kent de afsluiting van de P&O dagen Rijk weer een afsluiting met een knipoog. Na een korte samenvatting en reflectie van Sicco zal niemand anders Harry Glotzbach de afsluiting verzorgen (onder andere finalist Leids Cabaret Festival en winnaar van het het Amsterdams Kleinkunst Festival Comedy  Concours). Laat je verrassen door zijn bizar grappige kijk op de wereld om hem heen.`,
         banner: require("../../assets/Program/Banner2.png")
       },
