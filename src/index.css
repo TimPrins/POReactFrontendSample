@@ -12,9 +12,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.hidden {
+  display: none
+}
 
 @media (min-width: 1030px){
-  body{
+  .main-component{
     display: none
+  }
+  .hidden {
+    margin: 40vh;
+    padding: auto;
+    text-align: center;
+    display: block
   }
 }

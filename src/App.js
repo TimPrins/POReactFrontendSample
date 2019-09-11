@@ -67,59 +67,72 @@ const bounceTransition = {
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {mounted: 0,
-    redirect: false};
-
+    this.state = { mounted: 0, redirect: false };
   }
 
   componentDidMount() {
     if (this.state.mounted === 0) {
-      this.setState({mounted: 1});
-      this.setState({redirect: true});
-      return <Redirect to="city-selector"/>  
+      this.setState({ mounted: 1 });
+      this.setState({ redirect: true });
+      return <Redirect to="city-selector" />;
     }
   }
 
   render() {
     return (
-      <BrowserRouter>
-        <React.Fragment>
-          <main className="main-component">
-            <AnimatedSwitch
-              atEnter={bounceTransition.atEnter}
-              atLeave={bounceTransition.atLeave}
-              atActive={bounceTransition.atActive}
-              mapStyles={mapStyles}
-              className="route-wrapper"
-            >
-              {this.componentDidMount()}
-              <Redirect from="/" to="city-selector" exact />
-              <Route path="/generic-evaluation" component={GenericEvaluation} />
-              <Route path="/city-selector" component={CitySelector} />
-              <Route path="/introduction" component={Introduction} />
+      <div>
+        <div className="hidden">
+          <p>
+            Deze pagina is ontwikkeld om de P&O dagen Rijk app te instaleren op
+            je mobile device.
+          </p>
+          <p>
+            Als je de app wil instaleren, browse dan met je telefoon of ander
+            mobile device naar deze link
+          </p>
+        </div>
+        <BrowserRouter>
+          <React.Fragment>
+            <main className="main-component">
+              <AnimatedSwitch
+                atEnter={bounceTransition.atEnter}
+                atLeave={bounceTransition.atLeave}
+                atActive={bounceTransition.atActive}
+                mapStyles={mapStyles}
+                className="route-wrapper"
+              >
+                {this.componentDidMount()}
+                <Redirect from="/" to="city-selector" exact />
+                <Route
+                  path="/generic-evaluation"
+                  component={GenericEvaluation}
+                />
+                <Route path="/city-selector" component={CitySelector} />
+                <Route path="/introduction" component={Introduction} />
 
-              <Route path="/tutorial-1" component={Tutorial1} />
-              <Route path="/tutorial-2" component={Tutorial2} />
-              <Route path="/tutorial-3" component={Tutorial3} />
-              <Route path="/tutorial-4" component={Tutorial4} />
+                <Route path="/tutorial-1" component={Tutorial1} />
+                <Route path="/tutorial-2" component={Tutorial2} />
+                <Route path="/tutorial-3" component={Tutorial3} />
+                <Route path="/tutorial-4" component={Tutorial4} />
 
-              <Route path="/menu" component={Menu} />
+                <Route path="/menu" component={Menu} />
 
-              <Route path="/map" component={MapPage} />
+                <Route path="/map" component={MapPage} />
 
-              <Route path="/workshops" component={Workshop} />
-              <Route path="/workshop-detail" component={WorkshopDetail} />
-              <Route path="/workshop-evaluation" component={WorkshopEval} />
+                <Route path="/workshops" component={Workshop} />
+                <Route path="/workshop-detail" component={WorkshopDetail} />
+                <Route path="/workshop-evaluation" component={WorkshopEval} />
 
-              <Route path="/contact" component={Contact} />
+                <Route path="/contact" component={Contact} />
 
-              <Route path="/program" component={Program} />
-              <Route path="/program-details" component={ProgramDetails} />
-              <Route path="/program-speaker" component={ProgramSpeaker} />
-            </AnimatedSwitch>
-          </main>
-        </React.Fragment>
-      </BrowserRouter>
+                <Route path="/program" component={Program} />
+                <Route path="/program-details" component={ProgramDetails} />
+                <Route path="/program-speaker" component={ProgramSpeaker} />
+              </AnimatedSwitch>
+            </main>
+          </React.Fragment>
+        </BrowserRouter>
+      </div>
     );
   }
 }
