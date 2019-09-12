@@ -31,7 +31,7 @@ const DenHaag = {
     {
       title: "Organisatie Ontwikkeling: De sleutelrol van medewerkers",
       location: "Zaal 2",
-      leader: "Jason Gawke",
+      leader: "Jason Gawke & Lea Mazor",
       text:
         "Organisatie ontwikkeling gaat per definitie over het functioneren van de organisatie in de toekomst, maar hoe medewerkers - in het hier en nu - hun werk invullen, is daarbij bepalend. In deze workshop maak je kennis met state of the art inzichten over hoe je als HR professionals medewerkers hierin kan activeren en hoe je rekening kan houden met hun individuele verschillen. ",
       smallImage: require("../../assets/Workshops/DenHaag/3-Jason-Gawke.png"),
