@@ -31,7 +31,11 @@ const DenHaag = {
     {
       title: "Organisatie Ontwikkeling: De sleutelrol van medewerkers",
       location: "Zaal 2",
+<<<<<<< HEAD
       leader: "Jason Gawke & Lea Mazor",
+=======
+      leader: "Jason Gawke en Lea Mazor",
+>>>>>>> e123c28308fc69feb01047baef3e6618eff75044
       text:
         "Organisatie ontwikkeling gaat per definitie over het functioneren van de organisatie in de toekomst, maar hoe medewerkers - in het hier en nu - hun werk invullen, is daarbij bepalend. In deze workshop maak je kennis met state of the art inzichten over hoe je als HR professionals medewerkers hierin kan activeren en hoe je rekening kan houden met hun individuele verschillen. ",
       smallImage: require("../../assets/Workshops/DenHaag/3-Jason-Gawke.png"),
@@ -212,7 +216,7 @@ const Nieuwegein = {
     {
       title: "Organisatie Ontwikkeling: De sleutelrol van medewerkers",
       location: "Zaal 9",
-      leader: "Jason Gawke",
+      leader: "Jason Gawke en Lea Mazor",
       text:
         "Organisatie ontwikkeling gaat per definitie over het functioneren van de organisatie in de toekomst, maar hoe medewerkers - in het hier en nu - hun werk invullen, is daarbij bepalend. In deze workshop maak je kennis met state of the art inzichten over hoe je als HR professionals medewerkers hierin kan activeren en hoe je rekening kan houden met hun individuele verschillen. ",
       smallImage: require("../../assets/Workshops/DenHaag/3-Jason-Gawke.png"),
@@ -335,7 +339,7 @@ const Nieuwegein = {
         name: "Pauze",
         location: "Lobby",
         text:
-        "De pauze is het moment om samen met je collega's te reflecteren op de belangrijkste inzichten uit de workshops. Vergeet ook niet feedback te geven in de app over de workshop die je hebt bijgewoond!",
+          "De pauze is het moment om samen met je collega's te reflecteren op de belangrijkste inzichten uit de workshops. Vergeet ook niet feedback te geven in de app over de workshop die je hebt bijgewoond!",
         banner: require("../../assets/Program/Banner3.png")
       },
       speakerInfo: {}

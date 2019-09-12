@@ -74,7 +74,7 @@ class App extends Component {
     if (this.state.mounted === 0) {
       this.setState({ mounted: 1 });
       this.setState({ redirect: true });
-      return <Redirect to="city-selector" />;
+      return <Redirect to="/" />;
     }
   }
 
@@ -102,12 +102,12 @@ class App extends Component {
                 className="route-wrapper"
               >
                 {this.componentDidMount()}
-                <Redirect from="/" to="city-selector" exact />
+                {/* <Redirect from="/" to="city-selector" exact /> */}
                 <Route
                   path="/generic-evaluation"
                   component={GenericEvaluation}
                 />
-                <Route path="/city-selector" component={CitySelector} />
+                <Route exact path="/" component={CitySelector} />
                 <Route path="/introduction" component={Introduction} />
 
                 <Route path="/tutorial-1" component={Tutorial1} />
@@ -128,6 +128,7 @@ class App extends Component {
                 <Route path="/program" component={Program} />
                 <Route path="/program-details" component={ProgramDetails} />
                 <Route path="/program-speaker" component={ProgramSpeaker} />
+                <Route component={CitySelector} />
               </AnimatedSwitch>
             </main>
           </React.Fragment>
