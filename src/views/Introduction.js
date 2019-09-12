@@ -39,7 +39,7 @@ class Introduction extends Component {
       <div style={{
                         padding: "0 0 5vh 0"
                       }}> 
-        <Header lastPage="/city-selector" />
+        <Header lastPage="/" />
         <p style={styles.welcome}>Welkom op de P&O Dagen Rijk</p>
         <Subscribe to={[AppState]}>
           {appState => <h1 style={styles.city}>{appState.state.location}!</h1>}
