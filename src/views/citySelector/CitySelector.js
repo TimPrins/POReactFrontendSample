@@ -15,7 +15,7 @@ const DenHaag = {
       location: "Zaal 3",
       leader: "Ank Mokveld",
       text:
-        "Dat kan de UBR Inhuurdesk je haarfijn uit de doeken doen.  Tijdelijk capaciteit, handjes of kennis inhuren, daar komt tegenwoordig nogal wat bij kijken. Naast de steeds veranderende wet- en regelgeving, raakt externe inhuur ook verschillende disciplines zoals HRM, management en inkoop. Voor de UBR Inhuurdesk is het inhuren van externen dagelijks kost. De UBR Inhuurdesk adviseert rijksorganisaties bij het werven en inhuren van externe medewerkers voor tijdelijke functies en opdrachten, biedt ondersteuning op maat en werft en huurt tijdelijke medewerkers in. Dus kan je wel wat hulp gebruiken bij het inhuren van externen, wil je meer weten over de mogelijkheden van externe inhuur of heb je andere vragen op dit gebied grijp dan je kans en kom naar deze workshop. ",
+        "Dat kan de UBR Inhuurdesk je haarfijn uit de doeken doen. Tijdelijk capaciteit, handjes of kennis inhuren, daar komt tegenwoordig nogal wat bij kijken. Naast de steeds veranderende wet- en regelgeving, raakt externe inhuur ook verschillende disciplines zoals HRM, management en inkoop. Voor de UBR Inhuurdesk is het inhuren van externen dagelijks kost. De UBR Inhuurdesk adviseert rijksorganisaties bij het werven en inhuren van externe medewerkers voor tijdelijke functies en opdrachten, biedt ondersteuning op maat en werft en huurt tijdelijke medewerkers in. Dus kan je wel wat hulp gebruiken bij het inhuren van externen, wil je meer weten over de mogelijkheden van externe inhuur of heb je andere vragen op dit gebied grijp dan je kans en kom naar deze workshop. ",
       smallImage: require("../../assets/Workshops/DenHaag/1-Ank-Mokveld.jpg"),
       bigImage: require("../../assets/Workshops/DenHaag/1-Ank-Mokveld-Groot.jpg")
     },
@@ -33,7 +33,7 @@ const DenHaag = {
       location: "Zaal 2",
       leader: "Jason Gawke & Lea Mazor",
       text:
-        "Organisatie ontwikkeling gaat per definitie over het functioneren van de organisatie in de toekomst, maar hoe medewerkers - in het hier en nu - hun werk invullen, is daarbij bepalend. In deze workshop maak je kennis met state of the art inzichten over hoe je als HR professionals medewerkers hierin kan activeren en hoe je rekening kan houden met hun individuele verschillen. ",
+        "Organisatie ontwikkeling gaat per definitie over het functioneren van de organisatie in de toekomst, maar hoe medewerkers - in het hier en nu - hun werk invullen, is daarbij bepalend. In deze workshop maak je kennis met state of the art inzichten over hoe je als HR professional medewerkers hierin kan activeren en hoe je rekening houdt met hun individuele verschillen. ",
       smallImage: require("../../assets/Workshops/DenHaag/3-Jason-Gawke.png"),
       bigImage: require("../../assets/Workshops/DenHaag/3-Jason-Gawke-Groot.png")
     },
@@ -96,7 +96,7 @@ const DenHaag = {
       location: "Zaal 15",
       leader: "Ellen Viergever & Henk Van der Steen",
       text:
-        "Waarom werk je voor de Rijksoverheid? Wat motiveert jou? Wat maakt het werken voor de publieke zaak zo bijzonder? Wat geeft jou energie op je werk? En hoe zit dat in deze tijden van grote veranderingen? Onze SG’s willen met elkaar werken aan de organisatie ontwikkeling bij het Rijken en zijn benieuwd naar antwoorden op deze vragen. Om vervolgens ook weer beter in staat te zijn om antwoorden te kunnen formuleren op de uitdagingen die ons als Rijksoverheid te wachten staan. Vanuit de kern dus, de bedoeling, de ‘purpose’ van ons werk. In deze workshop ga je op een bijzondere manier met collega’s in gesprek, hoor je inspirerende verhalen en ga je met nieuwe energie weer naar buiten! Deze workshop is onderdeel van een ontdekkingstocht naar de purpose van het Rijk die het komende jaar door veel verschillende plekken binnen de Rijksoverheid trekt ",
+        "Waarom werk je voor de Rijksoverheid? Wat motiveert jou? Wat maakt het werken voor de publieke zaak zo bijzonder? Wat geeft jou energie op je werk? En hoe zit dat in deze tijden van grote veranderingen? Onze SG’s willen met elkaar werken aan de organisatie ontwikkeling bij het Rijk en zijn benieuwd naar antwoorden op deze vragen. Om vervolgens ook weer beter in staat te zijn om antwoorden te kunnen formuleren op de uitdagingen die ons als Rijksoverheid te wachten staan. Vanuit de kern dus, de bedoeling, de ‘purpose’ van ons werk. In deze workshop ga je op een bijzondere manier met collega’s in gesprek, hoor je inspirerende verhalen en ga je met nieuwe energie weer naar buiten! Deze workshop is onderdeel van een ontdekkingstocht naar de purpose van het Rijk die het komende jaar door veel verschillende plekken binnen de Rijksoverheid trekt ",
       smallImage: require("../../assets/Workshops/DenHaag/10-Ellen-Viergever.JPG"),
       bigImage: require("../../assets/Workshops/DenHaag/10-Ellen-Viergever-Groot.png")
     },
@@ -196,7 +196,7 @@ const Nieuwegein = {
       location: "Zaal 8",
       leader: "Ruud van Rheenen",
       text:
-        "Er is niets gevaarlijker dan over een ravijn springen in twee sprongen.” Mensen en organisaties staan in steeds grotere mate voor de uitdaging wendbaar in te spelen op de veranderingen in het werk, technologische ontwikkelingen en de trends in de samenleving De opgaven waar overheden aan bijdragen kiezen zij niet meer alleen, maar in nauw contact met hun omgeving of het overkomt ze zelfs. Het werken aan veranderende opgaven, waarin invloed en besluitvorming samen met partners gebeurt is nieuwe werkelijkheid en vraagt om het vermogen de eigen rol en koers snel en effectief te veranderen. Dit vraagt om andere vormen van leiderschap, een hoge mate van autonomie en resultaatverantwoordelijkheid én nieuwe manieren om de ambities en talenten van alle medewerkers optimaal te benutten. Maar hoe werkt dat in de praktijk? In deze workshop geeft Ruud van Rheenen, specialist op het gebied van Wendbaar Werken, inzicht in de manier waarop diverse organisaties concreet invulling geven aan deze uitdaging. ",
+        "'Er is niets gevaarlijker dan over een ravijn springen in twee sprongen.' Mensen en organisaties staan in steeds grotere mate voor de uitdaging wendbaar in te spelen op de veranderingen in het werk, technologische ontwikkelingen en de trends in de samenleving De opgaven waar overheden aan bijdragen kiezen zij niet meer alleen, maar in nauw contact met hun omgeving of het overkomt ze zelfs. Het werken aan veranderende opgaven, waarin invloed en besluitvorming samen met partners gebeurt is nieuwe werkelijkheid en vraagt om het vermogen de eigen rol en koers snel en effectief te veranderen. Dit vraagt om andere vormen van leiderschap, een hoge mate van autonomie en resultaatverantwoordelijkheid én nieuwe manieren om de ambities en talenten van alle medewerkers optimaal te benutten. Maar hoe werkt dat in de praktijk? In deze workshop geeft Ruud van Rheenen, specialist op het gebied van Wendbaar Werken, inzicht in de manier waarop diverse organisaties concreet invulling geven aan deze uitdaging. ",
       bigImage: require("../../assets/Workshops/Nieuwegein/1-Ruud-groot.png"),
       smallImage: require("../../assets/Workshops/Nieuwegein/1-Ruud-klein.png")
     },
@@ -212,9 +212,9 @@ const Nieuwegein = {
     {
       title: "Organisatie Ontwikkeling: De sleutelrol van medewerkers",
       location: "Zaal 9",
-      leader: "Jason Gawke en Lea Mazor",
+      leader: "Jason Gawke",
       text:
-        "Organisatie ontwikkeling gaat per definitie over het functioneren van de organisatie in de toekomst, maar hoe medewerkers - in het hier en nu - hun werk invullen, is daarbij bepalend. In deze workshop maak je kennis met state of the art inzichten over hoe je als HR professionals medewerkers hierin kan activeren en hoe je rekening kan houden met hun individuele verschillen. ",
+        "Organisatie ontwikkeling gaat per definitie over het functioneren van de organisatie in de toekomst, maar hoe medewerkers - in het hier en nu - hun werk invullen, is daarbij bepalend. In deze workshop maak je kennis met state of the art inzichten over hoe je als HR professional medewerkers hierin kan activeren en hoe je rekening houdt met hun individuele verschillen. ",
       smallImage: require("../../assets/Workshops/DenHaag/3-Jason-Gawke.png"),
       bigImage: require("../../assets/Workshops/DenHaag/3-Jason-Gawke-Groot.png")
     },
@@ -223,7 +223,7 @@ const Nieuwegein = {
       location: "Zaal 6",
       leader: "Saniye Celik",
       text:
-      "De rijksoverheid heeft diversiteit en inclusie tot een van haar belangrijkste speerpunten benoemd voor de komende jaren. P&O’ers, beleidsadviseurs en leidinggevenden spelen een prominente rol bij het creëren van een werkomgeving waar iedereen zich gewaardeerd en thuis voelt. Dat doet er toe, want in een inclusieve cultuur zijn mensen productiever, creatiever en effectiever. In deze workshop neemt Saniye Çelik ons mee naar de essentie van diversiteit en inclusie en bespreekt ze de waarden die daaraan ten grondslag liggen. Waarom doen we aan diversiteit en hoe kun je een inclusieve cultuur bevorderen? Wat vraagt dat van ons in termen van skills en gedrag? Aan de hand van een unieke inclusiescan brengen we in kaart hoe inclusief we als individu zijn.",
+      "De Rijksoverheid heeft diversiteit en inclusie tot een van haar belangrijkste speerpunten benoemd voor de komende jaren. P&O’ers, beleidsadviseurs en leidinggevenden spelen een prominente rol bij het creëren van een werkomgeving waar iedereen zich gewaardeerd en thuis voelt. Dat doet er toe, want in een inclusieve cultuur zijn mensen productiever, creatiever en effectiever. In deze workshop neemt Saniye Çelik ons mee naar de essentie van diversiteit en inclusie en bespreekt ze de waarden die daaraan ten grondslag liggen. Waarom doen we aan diversiteit en hoe kun je een inclusieve cultuur bevorderen? Wat vraagt dat van ons in termen van skills en gedrag? Aan de hand van een unieke inclusiescan brengen we in kaart hoe inclusief we als individu zijn.",
       smallImage: require("../../assets/Workshops/Nieuwegein/4-Saniye-Celik-klein.jpg"),
       bigImage: require("../../assets/Workshops/Nieuwegein/4-Saniye-Celik-groot.jpg")
     },
@@ -241,7 +241,7 @@ const Nieuwegein = {
       location: "Zaal 10",
       leader: "Regina Koning",
       text:
-        "Een flexibel functiegebouw Rijk geeft ruimte aan mens en organisatie Medewerkers en organisaties worden niet wendbaarder door dat van bovenaf op te leggen. Dat gebeurt alleen als iedereen de mogelijkheden ontdekt en daar ook voordeel in ontdekt en ervaart. Dat betekent soms een andere manier van samenwerken binnen de organisatie, waarbij medewerkers en managers samen invulling kunnen geven aan de ruimte die geboden wordt. Die ruimte kan door medewerker en management gebruikt worden om zich in te zetten op verschillende plekken, of door wisselende teams samen te stellen, afhankelijk van de vraag, interesse en het werkaanbod. Organisaties kunnen zo experimenteren, innoveren en nieuwe vaardigheden aanleren. Benieuwd hoe het FGR hierop in kan spelen en daarvoor door jou gebruikt kan worden? Geef je dan op voor de workshop! ",
+        "Een flexibel functiegebouw Rijk geeft ruimte aan mens en organisatie. Medewerkers en organisaties worden niet wendbaarder door dat van bovenaf op te leggen. Dat gebeurt alleen als iedereen de mogelijkheden ontdekt en daar ook voordeel in ontdekt en ervaart. Dat betekent soms een andere manier van samenwerken binnen de organisatie, waarbij medewerkers en managers samen invulling kunnen geven aan de ruimte die geboden wordt. Die ruimte kan door medewerker en management gebruikt worden om zich in te zetten op verschillende plekken, of door wisselende teams samen te stellen, afhankelijk van de vraag, interesse en het werkaanbod. Organisaties kunnen zo experimenteren, innoveren en nieuwe vaardigheden aanleren. Benieuwd hoe het FGR hierop in kan spelen en daarvoor door jou gebruikt kan worden? Geef je dan op voor de workshop! ",
       smallImage: require("../../assets/Workshops/DenHaag/6-ReginaKoning.png"),
       bigImage: require("../../assets/Workshops/DenHaag/6-ReginaKoning-Groot.png")
     },
@@ -277,7 +277,7 @@ const Nieuwegein = {
       location: "Zaal 16",
       leader: "Ellen Viergever & Henk Van der Steen ",
       text:
-        "Waarom werk je voor de Rijksoverheid? Wat motiveert jou? Wat maakt het werken voor de publieke zaak zo bijzonder? Wat geeft jou energie op je werk? En hoe zit dat in deze tijden van grote veranderingen? Onze SG’s willen met elkaar werken aan de organisatie ontwikkeling bij het Rijken en zijn benieuwd naar antwoorden op deze vragen. Om vervolgens ook weer beter in staat te zijn om antwoorden te kunnen formuleren op de uitdagingen die ons als Rijksoverheid te wachten staan. Vanuit de kern dus, de bedoeling, de ‘purpose’ van ons werk. In deze workshop ga je op een bijzondere manier met collega’s in gesprek, hoor je inspirerende verhalen en ga je met nieuwe energie weer naar buiten! Deze workshop is onderdeel van een ontdekkingstocht naar de purpose van het Rijk die het komende jaar door veel verschillende plekken binnen de Rijksoverheid trekt ",
+        "Waarom werk je voor de Rijksoverheid? Wat motiveert jou? Wat maakt het werken voor de publieke zaak zo bijzonder? Wat geeft jou energie op je werk? En hoe zit dat in deze tijden van grote veranderingen? Onze SG’s willen met elkaar werken aan de organisatie ontwikkeling bij het Rijk en zijn benieuwd naar antwoorden op deze vragen. Om vervolgens ook weer beter in staat te zijn om antwoorden te kunnen formuleren op de uitdagingen die ons als Rijksoverheid te wachten staan. Vanuit de kern dus, de bedoeling, de ‘purpose’ van ons werk. In deze workshop ga je op een bijzondere manier met collega’s in gesprek, hoor je inspirerende verhalen en ga je met nieuwe energie weer naar buiten! Deze workshop is onderdeel van een ontdekkingstocht naar de purpose van het Rijk die het komende jaar door veel verschillende plekken binnen de Rijksoverheid trekt ",
       smallImage: require("../../assets/Workshops/DenHaag/10-Ellen-Viergever.JPG"),
       bigImage: require("../../assets/Workshops/DenHaag/10-Ellen-Viergever-Groot.png")
     },
@@ -286,7 +286,7 @@ const Nieuwegein = {
       location: "Zaal 17",
       leader: "Jan Peter Kuiper",
       text:
-        "“Culture eats strategy for breakfast” zei Peter Drucker. Torben Rick maakte daar in 2014 “Organizational culture eats strategy for breakfast, lunch and dinner”. Maar wat is organisatiecultuur nu precies, wat kunnen we er mee en waarom is het zo belangrijk? In deze workshop maken we kennis met het begrip organisatiecultuur, we kijken naar het effect dat (cultuur) verschillen hebben op samenwerking en wat we daaruit voor ons zelf en ons P&O werk kunnen leren. De workshop is een combinatie van theorie en achtergronden, en groeps- en individuele oefeningen. De workshop wordt gegeven door drs Jan-Peter Kuiper. Jan-Peter is organisatie antropoloog en adviseur. Hij werkt bij het ministerie van Justitie en Veiligheid aan de dossiers ‘ongeschreven regels’, ‘samenwerken’ en ‘organisatie inrichting’. Daarnaast begeleidt hij als een van de oprichters van The Rebel Alliance cultuurveranderingstrajecten en reorganisaties bij onder meer overheden en onderwijs. ",
+        "'Culture eats strategy for breakfast' zei Peter Drucker. Torben Rick maakte daar in 2014 'Organizational culture eats strategy for breakfast, lunch and dinner'. Maar wat is organisatiecultuur nu precies, wat kunnen we er mee en waarom is het zo belangrijk? In deze workshop maken we kennis met het begrip organisatiecultuur, we kijken naar het effect dat (cultuur) verschillen hebben op samenwerking en wat we daaruit voor ons zelf en ons P&O werk kunnen leren. De workshop is een combinatie van theorie en achtergronden, en groeps- en individuele oefeningen. De workshop wordt gegeven door drs Jan-Peter Kuiper. Jan-Peter is organisatie antropoloog en adviseur. Hij werkt bij het ministerie van Justitie en Veiligheid aan de dossiers ‘ongeschreven regels’, ‘samenwerken’ en ‘organisatie inrichting’. Daarnaast begeleidt hij als een van de oprichters van The Rebel Alliance cultuurveranderingstrajecten en reorganisaties bij onder meer overheden en onderwijs. ",
       smallImage: require("../../assets/Workshops/DenHaag/11-Jan-Peter.jpg"),
       bigImage: require("../../assets/Workshops/DenHaag/11-Jan-Peter-Groot.jpg")
     }
